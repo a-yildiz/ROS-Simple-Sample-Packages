@@ -1,0 +1,2 @@
+beginner_tutorials:ogretici_paket
+-DCATKIN_DEVEL_PREFIX=/home/yildiz/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/yildiz/catkin_ws/install -G Unix Makefiles
