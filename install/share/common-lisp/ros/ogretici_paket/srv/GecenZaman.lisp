@@ -141,10 +141,10 @@
   "d89a3e566b5de459800ae97d9237aa5b")
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql '<GecenZaman-response>)))
   "Returns full string definition for message of type '<GecenZaman-response>"
-  (cl:format cl:nil "float64 gecen_sure~%~%~%~%"))
+  (cl:format cl:nil "float64 gecen_sure~%~%# The ordering above is:~%# client request~%# server response~%~%~%~%"))
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql 'GecenZaman-response)))
   "Returns full string definition for message of type 'GecenZaman-response"
-  (cl:format cl:nil "float64 gecen_sure~%~%~%~%"))
+  (cl:format cl:nil "float64 gecen_sure~%~%# The ordering above is:~%# client request~%# server response~%~%~%~%"))
 (cl:defmethod roslisp-msg-protocol:serialization-length ((msg <GecenZaman-response>))
   (cl:+ 0
      8

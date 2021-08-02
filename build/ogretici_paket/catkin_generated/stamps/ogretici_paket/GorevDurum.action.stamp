@@ -1,0 +1,20 @@
+int32 birim
+---
+string sonuc
+---
+string oran
+
+# The ordering above is:
+# client request
+# server response
+# action feedback
+
+# When you `catkin_make` and `catkin_make install` after creating this file,
+# you will have created 7 different .msg and .h files named:
+# GorevDurum
+# GorevDurumGoal
+# GorevDurumResult
+# GorevDurumFeedback
+# GorevDurumAction
+# GorevDurumActionResult
+# GorevDurumActionFeedback

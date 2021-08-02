@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/yildiz/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yildiz/catkin_ws/build
+CMAKE_BINARY_DIR = /home/yildiz/GitRepos/ROS_Samples/build
 
 # Utility rule file for ogretici_paket_generate_messages_nodejs.
 
@@ -54,21 +54,90 @@ CMAKE_BINARY_DIR = /home/yildiz/catkin_ws/build
 include ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_nodejs.dir/progress.make
 
 ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_nodejs: /home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/BataryaDurum.js
+ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_nodejs: /home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumAction.js
+ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_nodejs: /home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumActionGoal.js
+ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_nodejs: /home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumActionResult.js
+ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_nodejs: /home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumActionFeedback.js
+ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_nodejs: /home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumGoal.js
+ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_nodejs: /home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumResult.js
+ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_nodejs: /home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumFeedback.js
 ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_nodejs: /home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/srv/GecenZaman.js
 
 
 /home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/BataryaDurum.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/BataryaDurum.js: /home/yildiz/catkin_ws/src/ogretici_paket/msg/BataryaDurum.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yildiz/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from ogretici_paket/BataryaDurum.msg"
-	cd /home/yildiz/catkin_ws/build/ogretici_paket && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/yildiz/catkin_ws/src/ogretici_paket/msg/BataryaDurum.msg -Iogretici_paket:/home/yildiz/catkin_ws/src/ogretici_paket/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p ogretici_paket -o /home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yildiz/GitRepos/ROS_Samples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from ogretici_paket/BataryaDurum.msg"
+	cd /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/yildiz/catkin_ws/src/ogretici_paket/msg/BataryaDurum.msg -Iogretici_paket:/home/yildiz/catkin_ws/src/ogretici_paket/msg -Iogretici_paket:/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p ogretici_paket -o /home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg
+
+/home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumAction.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumAction.js: /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumAction.msg
+/home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumAction.js: /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg
+/home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumAction.js: /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg
+/home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumAction.js: /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg
+/home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumAction.js: /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg
+/home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumAction.js: /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg
+/home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumAction.js: /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yildiz/GitRepos/ROS_Samples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from ogretici_paket/GorevDurumAction.msg"
+	cd /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumAction.msg -Iogretici_paket:/home/yildiz/catkin_ws/src/ogretici_paket/msg -Iogretici_paket:/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p ogretici_paket -o /home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg
+
+/home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumActionGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumActionGoal.js: /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg
+/home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumActionGoal.js: /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg
+/home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumActionGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumActionGoal.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yildiz/GitRepos/ROS_Samples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from ogretici_paket/GorevDurumActionGoal.msg"
+	cd /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg -Iogretici_paket:/home/yildiz/catkin_ws/src/ogretici_paket/msg -Iogretici_paket:/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p ogretici_paket -o /home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg
+
+/home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumActionResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumActionResult.js: /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg
+/home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumActionResult.js: /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg
+/home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumActionResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yildiz/GitRepos/ROS_Samples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from ogretici_paket/GorevDurumActionResult.msg"
+	cd /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg -Iogretici_paket:/home/yildiz/catkin_ws/src/ogretici_paket/msg -Iogretici_paket:/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p ogretici_paket -o /home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg
+
+/home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumActionFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumActionFeedback.js: /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg
+/home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumActionFeedback.js: /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg
+/home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumActionFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yildiz/GitRepos/ROS_Samples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from ogretici_paket/GorevDurumActionFeedback.msg"
+	cd /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg -Iogretici_paket:/home/yildiz/catkin_ws/src/ogretici_paket/msg -Iogretici_paket:/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p ogretici_paket -o /home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg
+
+/home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumGoal.js: /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yildiz/GitRepos/ROS_Samples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Javascript code from ogretici_paket/GorevDurumGoal.msg"
+	cd /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg -Iogretici_paket:/home/yildiz/catkin_ws/src/ogretici_paket/msg -Iogretici_paket:/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p ogretici_paket -o /home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg
+
+/home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumResult.js: /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yildiz/GitRepos/ROS_Samples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Javascript code from ogretici_paket/GorevDurumResult.msg"
+	cd /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg -Iogretici_paket:/home/yildiz/catkin_ws/src/ogretici_paket/msg -Iogretici_paket:/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p ogretici_paket -o /home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg
+
+/home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumFeedback.js: /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yildiz/GitRepos/ROS_Samples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Javascript code from ogretici_paket/GorevDurumFeedback.msg"
+	cd /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg -Iogretici_paket:/home/yildiz/catkin_ws/src/ogretici_paket/msg -Iogretici_paket:/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p ogretici_paket -o /home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg
 
 /home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/srv/GecenZaman.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/srv/GecenZaman.js: /home/yildiz/catkin_ws/src/ogretici_paket/srv/GecenZaman.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yildiz/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from ogretici_paket/GecenZaman.srv"
-	cd /home/yildiz/catkin_ws/build/ogretici_paket && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/yildiz/catkin_ws/src/ogretici_paket/srv/GecenZaman.srv -Iogretici_paket:/home/yildiz/catkin_ws/src/ogretici_paket/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p ogretici_paket -o /home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yildiz/GitRepos/ROS_Samples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Javascript code from ogretici_paket/GecenZaman.srv"
+	cd /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/yildiz/catkin_ws/src/ogretici_paket/srv/GecenZaman.srv -Iogretici_paket:/home/yildiz/catkin_ws/src/ogretici_paket/msg -Iogretici_paket:/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p ogretici_paket -o /home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/srv
 
 ogretici_paket_generate_messages_nodejs: ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_nodejs
 ogretici_paket_generate_messages_nodejs: /home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/BataryaDurum.js
+ogretici_paket_generate_messages_nodejs: /home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumAction.js
+ogretici_paket_generate_messages_nodejs: /home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumActionGoal.js
+ogretici_paket_generate_messages_nodejs: /home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumActionResult.js
+ogretici_paket_generate_messages_nodejs: /home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumActionFeedback.js
+ogretici_paket_generate_messages_nodejs: /home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumGoal.js
+ogretici_paket_generate_messages_nodejs: /home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumResult.js
+ogretici_paket_generate_messages_nodejs: /home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/msg/GorevDurumFeedback.js
 ogretici_paket_generate_messages_nodejs: /home/yildiz/catkin_ws/devel/share/gennodejs/ros/ogretici_paket/srv/GecenZaman.js
 ogretici_paket_generate_messages_nodejs: ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_nodejs.dir/build.make
 
@@ -80,10 +149,10 @@ ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_nodejs.dir/build: ogr
 .PHONY : ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_nodejs.dir/build
 
 ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_nodejs.dir/clean:
-	cd /home/yildiz/catkin_ws/build/ogretici_paket && $(CMAKE_COMMAND) -P CMakeFiles/ogretici_paket_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket && $(CMAKE_COMMAND) -P CMakeFiles/ogretici_paket_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_nodejs.dir/clean
 
 ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_nodejs.dir/depend:
-	cd /home/yildiz/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yildiz/catkin_ws/src /home/yildiz/catkin_ws/src/ogretici_paket /home/yildiz/catkin_ws/build /home/yildiz/catkin_ws/build/ogretici_paket /home/yildiz/catkin_ws/build/ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yildiz/catkin_ws/src /home/yildiz/catkin_ws/src/ogretici_paket /home/yildiz/GitRepos/ROS_Samples/build /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_nodejs.dir/depend
 

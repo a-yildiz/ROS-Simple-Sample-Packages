@@ -139,6 +139,10 @@ class GecenZamanResponse {
     return `
     float64 gecen_sure
     
+    # The ordering above is:
+    # client request
+    # server response
+    
     
     `;
   }

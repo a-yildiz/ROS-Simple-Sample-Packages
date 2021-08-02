@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/yildiz/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yildiz/catkin_ws/build
+CMAKE_BINARY_DIR = /home/yildiz/GitRepos/ROS_Samples/build
 
 # Utility rule file for std_msgs_generate_messages_lisp.
 
@@ -63,10 +63,10 @@ beginner_tutorials/CMakeFiles/std_msgs_generate_messages_lisp.dir/build: std_msg
 .PHONY : beginner_tutorials/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 
 beginner_tutorials/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
-	cd /home/yildiz/catkin_ws/build/beginner_tutorials && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/yildiz/GitRepos/ROS_Samples/build/beginner_tutorials && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : beginner_tutorials/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
 
 beginner_tutorials/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend:
-	cd /home/yildiz/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yildiz/catkin_ws/src /home/yildiz/catkin_ws/src/beginner_tutorials /home/yildiz/catkin_ws/build /home/yildiz/catkin_ws/build/beginner_tutorials /home/yildiz/catkin_ws/build/beginner_tutorials/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yildiz/catkin_ws/src /home/yildiz/catkin_ws/src/beginner_tutorials /home/yildiz/GitRepos/ROS_Samples/build /home/yildiz/GitRepos/ROS_Samples/build/beginner_tutorials /home/yildiz/GitRepos/ROS_Samples/build/beginner_tutorials/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : beginner_tutorials/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
 

@@ -148,6 +148,10 @@ struct Definition< ::ogretici_paket::GecenZamanResponse_<ContainerAllocator> >
   {
     return "float64 gecen_sure\n"
 "\n"
+"# The ordering above is:\n"
+"# client request\n"
+"# server response\n"
+"\n"
 ;
   }
 

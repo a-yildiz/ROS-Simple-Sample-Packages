@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/yildiz/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yildiz/catkin_ws/build
+CMAKE_BINARY_DIR = /home/yildiz/GitRepos/ROS_Samples/build
 
 # Utility rule file for tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/tests.dir/clean:
 .PHONY : CMakeFiles/tests.dir/clean
 
 CMakeFiles/tests.dir/depend:
-	cd /home/yildiz/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yildiz/catkin_ws/src /home/yildiz/catkin_ws/src /home/yildiz/catkin_ws/build /home/yildiz/catkin_ws/build /home/yildiz/catkin_ws/build/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yildiz/catkin_ws/src /home/yildiz/catkin_ws/src /home/yildiz/GitRepos/ROS_Samples/build /home/yildiz/GitRepos/ROS_Samples/build /home/yildiz/GitRepos/ROS_Samples/build/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tests.dir/depend
 

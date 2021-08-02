@@ -51,7 +51,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/yildiz/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yildiz/catkin_ws/build
+CMAKE_BINARY_DIR = /home/yildiz/GitRepos/ROS_Samples/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,6 +80,16 @@ install/fast: preinstall/fast
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -92,15 +102,16 @@ install/local/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
 
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
 
-.PHONY : list_install_components/fast
+.PHONY : edit_cache/fast
 
 # Special rule for the target test
 test:
@@ -124,27 +135,16 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # The main all target
 all: cmake_check_build_system
-	cd /home/yildiz/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/yildiz/catkin_ws/build/CMakeFiles /home/yildiz/catkin_ws/build/ogretici_paket/CMakeFiles/progress.marks
-	cd /home/yildiz/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yildiz/catkin_ws/build/CMakeFiles 0
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/yildiz/GitRepos/ROS_Samples/build/CMakeFiles /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket/CMakeFiles/progress.marks
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yildiz/GitRepos/ROS_Samples/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/yildiz/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/clean
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,82 +154,37 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/yildiz/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/preinstall
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/yildiz/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/preinstall
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/yildiz/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-ogretici_paket/CMakeFiles/ogretici_paket_generate_messages.dir/rule:
-	cd /home/yildiz/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/CMakeFiles/ogretici_paket_generate_messages.dir/rule
-.PHONY : ogretici_paket/CMakeFiles/ogretici_paket_generate_messages.dir/rule
+ogretici_paket/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
+.PHONY : ogretici_paket/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-ogretici_paket_generate_messages: ogretici_paket/CMakeFiles/ogretici_paket_generate_messages.dir/rule
+actionlib_msgs_generate_messages_cpp: ogretici_paket/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
 
-.PHONY : ogretici_paket_generate_messages
+.PHONY : actionlib_msgs_generate_messages_cpp
 
 # fast build rule for target.
-ogretici_paket_generate_messages/fast:
-	cd /home/yildiz/catkin_ws/build && $(MAKE) -f ogretici_paket/CMakeFiles/ogretici_paket_generate_messages.dir/build.make ogretici_paket/CMakeFiles/ogretici_paket_generate_messages.dir/build
-.PHONY : ogretici_paket_generate_messages/fast
-
-# Convenience name for target.
-ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_nodejs.dir/rule:
-	cd /home/yildiz/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_nodejs.dir/rule
-.PHONY : ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-ogretici_paket_generate_messages_nodejs: ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_nodejs.dir/rule
-
-.PHONY : ogretici_paket_generate_messages_nodejs
-
-# fast build rule for target.
-ogretici_paket_generate_messages_nodejs/fast:
-	cd /home/yildiz/catkin_ws/build && $(MAKE) -f ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_nodejs.dir/build.make ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_nodejs.dir/build
-.PHONY : ogretici_paket_generate_messages_nodejs/fast
-
-# Convenience name for target.
-ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GecenZaman.dir/rule:
-	cd /home/yildiz/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GecenZaman.dir/rule
-.PHONY : ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GecenZaman.dir/rule
-
-# Convenience name for target.
-_ogretici_paket_generate_messages_check_deps_GecenZaman: ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GecenZaman.dir/rule
-
-.PHONY : _ogretici_paket_generate_messages_check_deps_GecenZaman
-
-# fast build rule for target.
-_ogretici_paket_generate_messages_check_deps_GecenZaman/fast:
-	cd /home/yildiz/catkin_ws/build && $(MAKE) -f ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GecenZaman.dir/build.make ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GecenZaman.dir/build
-.PHONY : _ogretici_paket_generate_messages_check_deps_GecenZaman/fast
-
-# Convenience name for target.
-ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_BataryaDurum.dir/rule:
-	cd /home/yildiz/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_BataryaDurum.dir/rule
-.PHONY : ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_BataryaDurum.dir/rule
-
-# Convenience name for target.
-_ogretici_paket_generate_messages_check_deps_BataryaDurum: ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_BataryaDurum.dir/rule
-
-.PHONY : _ogretici_paket_generate_messages_check_deps_BataryaDurum
-
-# fast build rule for target.
-_ogretici_paket_generate_messages_check_deps_BataryaDurum/fast:
-	cd /home/yildiz/catkin_ws/build && $(MAKE) -f ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_BataryaDurum.dir/build.make ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_BataryaDurum.dir/build
-.PHONY : _ogretici_paket_generate_messages_check_deps_BataryaDurum/fast
+actionlib_msgs_generate_messages_cpp/fast:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f ogretici_paket/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make ogretici_paket/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
+.PHONY : actionlib_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_cpp.dir/rule:
-	cd /home/yildiz/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_cpp.dir/rule
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_cpp.dir/rule
 .PHONY : ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -239,72 +194,27 @@ ogretici_paket_generate_messages_cpp: ogretici_paket/CMakeFiles/ogretici_paket_g
 
 # fast build rule for target.
 ogretici_paket_generate_messages_cpp/fast:
-	cd /home/yildiz/catkin_ws/build && $(MAKE) -f ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_cpp.dir/build.make ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_cpp.dir/build
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_cpp.dir/build.make ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_cpp.dir/build
 .PHONY : ogretici_paket_generate_messages_cpp/fast
 
 # Convenience name for target.
-ogretici_paket/CMakeFiles/ogretici_paket_gennodejs.dir/rule:
-	cd /home/yildiz/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/CMakeFiles/ogretici_paket_gennodejs.dir/rule
-.PHONY : ogretici_paket/CMakeFiles/ogretici_paket_gennodejs.dir/rule
+ogretici_paket/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
+.PHONY : ogretici_paket/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
-ogretici_paket_gennodejs: ogretici_paket/CMakeFiles/ogretici_paket_gennodejs.dir/rule
+actionlib_msgs_generate_messages_eus: ogretici_paket/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
 
-.PHONY : ogretici_paket_gennodejs
+.PHONY : actionlib_msgs_generate_messages_eus
 
 # fast build rule for target.
-ogretici_paket_gennodejs/fast:
-	cd /home/yildiz/catkin_ws/build && $(MAKE) -f ogretici_paket/CMakeFiles/ogretici_paket_gennodejs.dir/build.make ogretici_paket/CMakeFiles/ogretici_paket_gennodejs.dir/build
-.PHONY : ogretici_paket_gennodejs/fast
-
-# Convenience name for target.
-ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_eus.dir/rule:
-	cd /home/yildiz/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_eus.dir/rule
-.PHONY : ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-ogretici_paket_generate_messages_eus: ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_eus.dir/rule
-
-.PHONY : ogretici_paket_generate_messages_eus
-
-# fast build rule for target.
-ogretici_paket_generate_messages_eus/fast:
-	cd /home/yildiz/catkin_ws/build && $(MAKE) -f ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_eus.dir/build.make ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_eus.dir/build
-.PHONY : ogretici_paket_generate_messages_eus/fast
-
-# Convenience name for target.
-ogretici_paket/CMakeFiles/ogretici_paket_geneus.dir/rule:
-	cd /home/yildiz/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/CMakeFiles/ogretici_paket_geneus.dir/rule
-.PHONY : ogretici_paket/CMakeFiles/ogretici_paket_geneus.dir/rule
-
-# Convenience name for target.
-ogretici_paket_geneus: ogretici_paket/CMakeFiles/ogretici_paket_geneus.dir/rule
-
-.PHONY : ogretici_paket_geneus
-
-# fast build rule for target.
-ogretici_paket_geneus/fast:
-	cd /home/yildiz/catkin_ws/build && $(MAKE) -f ogretici_paket/CMakeFiles/ogretici_paket_geneus.dir/build.make ogretici_paket/CMakeFiles/ogretici_paket_geneus.dir/build
-.PHONY : ogretici_paket_geneus/fast
-
-# Convenience name for target.
-ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_lisp.dir/rule:
-	cd /home/yildiz/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_lisp.dir/rule
-.PHONY : ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-ogretici_paket_generate_messages_lisp: ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_lisp.dir/rule
-
-.PHONY : ogretici_paket_generate_messages_lisp
-
-# fast build rule for target.
-ogretici_paket_generate_messages_lisp/fast:
-	cd /home/yildiz/catkin_ws/build && $(MAKE) -f ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_lisp.dir/build.make ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_lisp.dir/build
-.PHONY : ogretici_paket_generate_messages_lisp/fast
+actionlib_msgs_generate_messages_eus/fast:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f ogretici_paket/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make ogretici_paket/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
+.PHONY : actionlib_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 ogretici_paket/CMakeFiles/ogretici_paket_gencpp.dir/rule:
-	cd /home/yildiz/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/CMakeFiles/ogretici_paket_gencpp.dir/rule
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/CMakeFiles/ogretici_paket_gencpp.dir/rule
 .PHONY : ogretici_paket/CMakeFiles/ogretici_paket_gencpp.dir/rule
 
 # Convenience name for target.
@@ -314,12 +224,162 @@ ogretici_paket_gencpp: ogretici_paket/CMakeFiles/ogretici_paket_gencpp.dir/rule
 
 # fast build rule for target.
 ogretici_paket_gencpp/fast:
-	cd /home/yildiz/catkin_ws/build && $(MAKE) -f ogretici_paket/CMakeFiles/ogretici_paket_gencpp.dir/build.make ogretici_paket/CMakeFiles/ogretici_paket_gencpp.dir/build
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f ogretici_paket/CMakeFiles/ogretici_paket_gencpp.dir/build.make ogretici_paket/CMakeFiles/ogretici_paket_gencpp.dir/build
 .PHONY : ogretici_paket_gencpp/fast
 
 # Convenience name for target.
+ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumActionResult.dir/rule:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumActionResult.dir/rule
+.PHONY : ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumActionResult.dir/rule
+
+# Convenience name for target.
+_ogretici_paket_generate_messages_check_deps_GorevDurumActionResult: ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumActionResult.dir/rule
+
+.PHONY : _ogretici_paket_generate_messages_check_deps_GorevDurumActionResult
+
+# fast build rule for target.
+_ogretici_paket_generate_messages_check_deps_GorevDurumActionResult/fast:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumActionResult.dir/build.make ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumActionResult.dir/build
+.PHONY : _ogretici_paket_generate_messages_check_deps_GorevDurumActionResult/fast
+
+# Convenience name for target.
+ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumActionGoal.dir/rule:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumActionGoal.dir/rule
+.PHONY : ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumActionGoal.dir/rule
+
+# Convenience name for target.
+_ogretici_paket_generate_messages_check_deps_GorevDurumActionGoal: ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumActionGoal.dir/rule
+
+.PHONY : _ogretici_paket_generate_messages_check_deps_GorevDurumActionGoal
+
+# fast build rule for target.
+_ogretici_paket_generate_messages_check_deps_GorevDurumActionGoal/fast:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumActionGoal.dir/build.make ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumActionGoal.dir/build
+.PHONY : _ogretici_paket_generate_messages_check_deps_GorevDurumActionGoal/fast
+
+# Convenience name for target.
+ogretici_paket/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
+.PHONY : ogretici_paket/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+actionlib_msgs_generate_messages_py: ogretici_paket/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
+
+.PHONY : actionlib_msgs_generate_messages_py
+
+# fast build rule for target.
+actionlib_msgs_generate_messages_py/fast:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f ogretici_paket/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make ogretici_paket/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
+.PHONY : actionlib_msgs_generate_messages_py/fast
+
+# Convenience name for target.
+ogretici_paket/CMakeFiles/ogretici_paket_generate_messages.dir/rule:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/CMakeFiles/ogretici_paket_generate_messages.dir/rule
+.PHONY : ogretici_paket/CMakeFiles/ogretici_paket_generate_messages.dir/rule
+
+# Convenience name for target.
+ogretici_paket_generate_messages: ogretici_paket/CMakeFiles/ogretici_paket_generate_messages.dir/rule
+
+.PHONY : ogretici_paket_generate_messages
+
+# fast build rule for target.
+ogretici_paket_generate_messages/fast:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f ogretici_paket/CMakeFiles/ogretici_paket_generate_messages.dir/build.make ogretici_paket/CMakeFiles/ogretici_paket_generate_messages.dir/build
+.PHONY : ogretici_paket_generate_messages/fast
+
+# Convenience name for target.
+ogretici_paket/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
+.PHONY : ogretici_paket/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+actionlib_msgs_generate_messages_nodejs: ogretici_paket/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
+
+.PHONY : actionlib_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+actionlib_msgs_generate_messages_nodejs/fast:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f ogretici_paket/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make ogretici_paket/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
+.PHONY : actionlib_msgs_generate_messages_nodejs/fast
+
+# Convenience name for target.
+ogretici_paket/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
+.PHONY : ogretici_paket/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+actionlib_msgs_generate_messages_lisp: ogretici_paket/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : actionlib_msgs_generate_messages_lisp
+
+# fast build rule for target.
+actionlib_msgs_generate_messages_lisp/fast:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f ogretici_paket/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make ogretici_paket/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
+.PHONY : actionlib_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+ogretici_paket/CMakeFiles/ogretici_paket_gennodejs.dir/rule:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/CMakeFiles/ogretici_paket_gennodejs.dir/rule
+.PHONY : ogretici_paket/CMakeFiles/ogretici_paket_gennodejs.dir/rule
+
+# Convenience name for target.
+ogretici_paket_gennodejs: ogretici_paket/CMakeFiles/ogretici_paket_gennodejs.dir/rule
+
+.PHONY : ogretici_paket_gennodejs
+
+# fast build rule for target.
+ogretici_paket_gennodejs/fast:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f ogretici_paket/CMakeFiles/ogretici_paket_gennodejs.dir/build.make ogretici_paket/CMakeFiles/ogretici_paket_gennodejs.dir/build
+.PHONY : ogretici_paket_gennodejs/fast
+
+# Convenience name for target.
+ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_BataryaDurum.dir/rule:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_BataryaDurum.dir/rule
+.PHONY : ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_BataryaDurum.dir/rule
+
+# Convenience name for target.
+_ogretici_paket_generate_messages_check_deps_BataryaDurum: ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_BataryaDurum.dir/rule
+
+.PHONY : _ogretici_paket_generate_messages_check_deps_BataryaDurum
+
+# fast build rule for target.
+_ogretici_paket_generate_messages_check_deps_BataryaDurum/fast:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_BataryaDurum.dir/build.make ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_BataryaDurum.dir/build
+.PHONY : _ogretici_paket_generate_messages_check_deps_BataryaDurum/fast
+
+# Convenience name for target.
+ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GecenZaman.dir/rule:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GecenZaman.dir/rule
+.PHONY : ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GecenZaman.dir/rule
+
+# Convenience name for target.
+_ogretici_paket_generate_messages_check_deps_GecenZaman: ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GecenZaman.dir/rule
+
+.PHONY : _ogretici_paket_generate_messages_check_deps_GecenZaman
+
+# fast build rule for target.
+_ogretici_paket_generate_messages_check_deps_GecenZaman/fast:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GecenZaman.dir/build.make ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GecenZaman.dir/build
+.PHONY : _ogretici_paket_generate_messages_check_deps_GecenZaman/fast
+
+# Convenience name for target.
+ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumFeedback.dir/rule:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumFeedback.dir/rule
+.PHONY : ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumFeedback.dir/rule
+
+# Convenience name for target.
+_ogretici_paket_generate_messages_check_deps_GorevDurumFeedback: ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumFeedback.dir/rule
+
+.PHONY : _ogretici_paket_generate_messages_check_deps_GorevDurumFeedback
+
+# fast build rule for target.
+_ogretici_paket_generate_messages_check_deps_GorevDurumFeedback/fast:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumFeedback.dir/build.make ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumFeedback.dir/build
+.PHONY : _ogretici_paket_generate_messages_check_deps_GorevDurumFeedback/fast
+
+# Convenience name for target.
 ogretici_paket/CMakeFiles/ogretici_paket_genlisp.dir/rule:
-	cd /home/yildiz/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/CMakeFiles/ogretici_paket_genlisp.dir/rule
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/CMakeFiles/ogretici_paket_genlisp.dir/rule
 .PHONY : ogretici_paket/CMakeFiles/ogretici_paket_genlisp.dir/rule
 
 # Convenience name for target.
@@ -329,12 +389,132 @@ ogretici_paket_genlisp: ogretici_paket/CMakeFiles/ogretici_paket_genlisp.dir/rul
 
 # fast build rule for target.
 ogretici_paket_genlisp/fast:
-	cd /home/yildiz/catkin_ws/build && $(MAKE) -f ogretici_paket/CMakeFiles/ogretici_paket_genlisp.dir/build.make ogretici_paket/CMakeFiles/ogretici_paket_genlisp.dir/build
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f ogretici_paket/CMakeFiles/ogretici_paket_genlisp.dir/build.make ogretici_paket/CMakeFiles/ogretici_paket_genlisp.dir/build
 .PHONY : ogretici_paket_genlisp/fast
 
 # Convenience name for target.
+ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumAction.dir/rule:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumAction.dir/rule
+.PHONY : ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumAction.dir/rule
+
+# Convenience name for target.
+_ogretici_paket_generate_messages_check_deps_GorevDurumAction: ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumAction.dir/rule
+
+.PHONY : _ogretici_paket_generate_messages_check_deps_GorevDurumAction
+
+# fast build rule for target.
+_ogretici_paket_generate_messages_check_deps_GorevDurumAction/fast:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumAction.dir/build.make ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumAction.dir/build
+.PHONY : _ogretici_paket_generate_messages_check_deps_GorevDurumAction/fast
+
+# Convenience name for target.
+ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_eus.dir/rule:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_eus.dir/rule
+.PHONY : ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+ogretici_paket_generate_messages_eus: ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_eus.dir/rule
+
+.PHONY : ogretici_paket_generate_messages_eus
+
+# fast build rule for target.
+ogretici_paket_generate_messages_eus/fast:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_eus.dir/build.make ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_eus.dir/build
+.PHONY : ogretici_paket_generate_messages_eus/fast
+
+# Convenience name for target.
+ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumResult.dir/rule:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumResult.dir/rule
+.PHONY : ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumResult.dir/rule
+
+# Convenience name for target.
+_ogretici_paket_generate_messages_check_deps_GorevDurumResult: ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumResult.dir/rule
+
+.PHONY : _ogretici_paket_generate_messages_check_deps_GorevDurumResult
+
+# fast build rule for target.
+_ogretici_paket_generate_messages_check_deps_GorevDurumResult/fast:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumResult.dir/build.make ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumResult.dir/build
+.PHONY : _ogretici_paket_generate_messages_check_deps_GorevDurumResult/fast
+
+# Convenience name for target.
+ogretici_paket/CMakeFiles/ogretici_paket_geneus.dir/rule:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/CMakeFiles/ogretici_paket_geneus.dir/rule
+.PHONY : ogretici_paket/CMakeFiles/ogretici_paket_geneus.dir/rule
+
+# Convenience name for target.
+ogretici_paket_geneus: ogretici_paket/CMakeFiles/ogretici_paket_geneus.dir/rule
+
+.PHONY : ogretici_paket_geneus
+
+# fast build rule for target.
+ogretici_paket_geneus/fast:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f ogretici_paket/CMakeFiles/ogretici_paket_geneus.dir/build.make ogretici_paket/CMakeFiles/ogretici_paket_geneus.dir/build
+.PHONY : ogretici_paket_geneus/fast
+
+# Convenience name for target.
+ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_lisp.dir/rule:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_lisp.dir/rule
+.PHONY : ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+ogretici_paket_generate_messages_lisp: ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_lisp.dir/rule
+
+.PHONY : ogretici_paket_generate_messages_lisp
+
+# fast build rule for target.
+ogretici_paket_generate_messages_lisp/fast:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_lisp.dir/build.make ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_lisp.dir/build
+.PHONY : ogretici_paket_generate_messages_lisp/fast
+
+# Convenience name for target.
+ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumGoal.dir/rule:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumGoal.dir/rule
+.PHONY : ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumGoal.dir/rule
+
+# Convenience name for target.
+_ogretici_paket_generate_messages_check_deps_GorevDurumGoal: ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumGoal.dir/rule
+
+.PHONY : _ogretici_paket_generate_messages_check_deps_GorevDurumGoal
+
+# fast build rule for target.
+_ogretici_paket_generate_messages_check_deps_GorevDurumGoal/fast:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumGoal.dir/build.make ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumGoal.dir/build
+.PHONY : _ogretici_paket_generate_messages_check_deps_GorevDurumGoal/fast
+
+# Convenience name for target.
+ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumActionFeedback.dir/rule:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumActionFeedback.dir/rule
+.PHONY : ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumActionFeedback.dir/rule
+
+# Convenience name for target.
+_ogretici_paket_generate_messages_check_deps_GorevDurumActionFeedback: ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumActionFeedback.dir/rule
+
+.PHONY : _ogretici_paket_generate_messages_check_deps_GorevDurumActionFeedback
+
+# fast build rule for target.
+_ogretici_paket_generate_messages_check_deps_GorevDurumActionFeedback/fast:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumActionFeedback.dir/build.make ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumActionFeedback.dir/build
+.PHONY : _ogretici_paket_generate_messages_check_deps_GorevDurumActionFeedback/fast
+
+# Convenience name for target.
+ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_nodejs.dir/rule:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_nodejs.dir/rule
+.PHONY : ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+ogretici_paket_generate_messages_nodejs: ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_nodejs.dir/rule
+
+.PHONY : ogretici_paket_generate_messages_nodejs
+
+# fast build rule for target.
+ogretici_paket_generate_messages_nodejs/fast:
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_nodejs.dir/build.make ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_nodejs.dir/build
+.PHONY : ogretici_paket_generate_messages_nodejs/fast
+
+# Convenience name for target.
 ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py.dir/rule:
-	cd /home/yildiz/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py.dir/rule
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py.dir/rule
 .PHONY : ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -344,12 +524,12 @@ ogretici_paket_generate_messages_py: ogretici_paket/CMakeFiles/ogretici_paket_ge
 
 # fast build rule for target.
 ogretici_paket_generate_messages_py/fast:
-	cd /home/yildiz/catkin_ws/build && $(MAKE) -f ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py.dir/build.make ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py.dir/build
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py.dir/build.make ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py.dir/build
 .PHONY : ogretici_paket_generate_messages_py/fast
 
 # Convenience name for target.
 ogretici_paket/CMakeFiles/ogretici_paket_genpy.dir/rule:
-	cd /home/yildiz/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/CMakeFiles/ogretici_paket_genpy.dir/rule
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f CMakeFiles/Makefile2 ogretici_paket/CMakeFiles/ogretici_paket_genpy.dir/rule
 .PHONY : ogretici_paket/CMakeFiles/ogretici_paket_genpy.dir/rule
 
 # Convenience name for target.
@@ -359,7 +539,7 @@ ogretici_paket_genpy: ogretici_paket/CMakeFiles/ogretici_paket_genpy.dir/rule
 
 # fast build rule for target.
 ogretici_paket_genpy/fast:
-	cd /home/yildiz/catkin_ws/build && $(MAKE) -f ogretici_paket/CMakeFiles/ogretici_paket_genpy.dir/build.make ogretici_paket/CMakeFiles/ogretici_paket_genpy.dir/build
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(MAKE) -f ogretici_paket/CMakeFiles/ogretici_paket_genpy.dir/build.make ogretici_paket/CMakeFiles/ogretici_paket_genpy.dir/build
 .PHONY : ogretici_paket_genpy/fast
 
 # Help Target
@@ -370,22 +550,34 @@ help:
 	@echo "... depend"
 	@echo "... install/strip"
 	@echo "... install"
-	@echo "... ogretici_paket_generate_messages"
-	@echo "... ogretici_paket_generate_messages_nodejs"
-	@echo "... install/local"
-	@echo "... _ogretici_paket_generate_messages_check_deps_GecenZaman"
-	@echo "... _ogretici_paket_generate_messages_check_deps_BataryaDurum"
-	@echo "... list_install_components"
+	@echo "... actionlib_msgs_generate_messages_cpp"
 	@echo "... ogretici_paket_generate_messages_cpp"
-	@echo "... test"
+	@echo "... list_install_components"
+	@echo "... actionlib_msgs_generate_messages_eus"
+	@echo "... install/local"
+	@echo "... ogretici_paket_gencpp"
+	@echo "... edit_cache"
+	@echo "... _ogretici_paket_generate_messages_check_deps_GorevDurumActionResult"
+	@echo "... _ogretici_paket_generate_messages_check_deps_GorevDurumActionGoal"
+	@echo "... actionlib_msgs_generate_messages_py"
+	@echo "... ogretici_paket_generate_messages"
+	@echo "... actionlib_msgs_generate_messages_nodejs"
+	@echo "... actionlib_msgs_generate_messages_lisp"
 	@echo "... ogretici_paket_gennodejs"
+	@echo "... test"
+	@echo "... _ogretici_paket_generate_messages_check_deps_BataryaDurum"
+	@echo "... _ogretici_paket_generate_messages_check_deps_GecenZaman"
+	@echo "... _ogretici_paket_generate_messages_check_deps_GorevDurumFeedback"
+	@echo "... ogretici_paket_genlisp"
+	@echo "... _ogretici_paket_generate_messages_check_deps_GorevDurumAction"
 	@echo "... ogretici_paket_generate_messages_eus"
+	@echo "... _ogretici_paket_generate_messages_check_deps_GorevDurumResult"
 	@echo "... ogretici_paket_geneus"
 	@echo "... ogretici_paket_generate_messages_lisp"
+	@echo "... _ogretici_paket_generate_messages_check_deps_GorevDurumGoal"
+	@echo "... _ogretici_paket_generate_messages_check_deps_GorevDurumActionFeedback"
+	@echo "... ogretici_paket_generate_messages_nodejs"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
-	@echo "... ogretici_paket_gencpp"
-	@echo "... ogretici_paket_genlisp"
 	@echo "... ogretici_paket_generate_messages_py"
 	@echo "... ogretici_paket_genpy"
 .PHONY : help
@@ -399,6 +591,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/yildiz/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/yildiz/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yildiz/catkin_ws/build
+CMAKE_BINARY_DIR = /home/yildiz/GitRepos/ROS_Samples/build
 
 # Utility rule file for ogretici_paket_genpy.
 
@@ -63,10 +63,10 @@ ogretici_paket/CMakeFiles/ogretici_paket_genpy.dir/build: ogretici_paket_genpy
 .PHONY : ogretici_paket/CMakeFiles/ogretici_paket_genpy.dir/build
 
 ogretici_paket/CMakeFiles/ogretici_paket_genpy.dir/clean:
-	cd /home/yildiz/catkin_ws/build/ogretici_paket && $(CMAKE_COMMAND) -P CMakeFiles/ogretici_paket_genpy.dir/cmake_clean.cmake
+	cd /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket && $(CMAKE_COMMAND) -P CMakeFiles/ogretici_paket_genpy.dir/cmake_clean.cmake
 .PHONY : ogretici_paket/CMakeFiles/ogretici_paket_genpy.dir/clean
 
 ogretici_paket/CMakeFiles/ogretici_paket_genpy.dir/depend:
-	cd /home/yildiz/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yildiz/catkin_ws/src /home/yildiz/catkin_ws/src/ogretici_paket /home/yildiz/catkin_ws/build /home/yildiz/catkin_ws/build/ogretici_paket /home/yildiz/catkin_ws/build/ogretici_paket/CMakeFiles/ogretici_paket_genpy.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yildiz/catkin_ws/src /home/yildiz/catkin_ws/src/ogretici_paket /home/yildiz/GitRepos/ROS_Samples/build /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket/CMakeFiles/ogretici_paket_genpy.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ogretici_paket/CMakeFiles/ogretici_paket_genpy.dir/depend
 

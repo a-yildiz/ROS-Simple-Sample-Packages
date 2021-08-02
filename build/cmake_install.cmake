@@ -56,7 +56,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/yildiz/catkin_ws/install" TYPE PROGRAM FILES "/home/yildiz/catkin_ws/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/yildiz/catkin_ws/install" TYPE PROGRAM FILES "/home/yildiz/GitRepos/ROS_Samples/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -68,7 +68,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/yildiz/catkin_ws/install" TYPE PROGRAM FILES "/home/yildiz/catkin_ws/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/yildiz/catkin_ws/install" TYPE PROGRAM FILES "/home/yildiz/GitRepos/ROS_Samples/build/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -81,8 +81,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/home/yildiz/catkin_ws/install" TYPE FILE FILES
-    "/home/yildiz/catkin_ws/build/catkin_generated/installspace/setup.bash"
-    "/home/yildiz/catkin_ws/build/catkin_generated/installspace/local_setup.bash"
+    "/home/yildiz/GitRepos/ROS_Samples/build/catkin_generated/installspace/setup.bash"
+    "/home/yildiz/GitRepos/ROS_Samples/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
@@ -96,8 +96,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/home/yildiz/catkin_ws/install" TYPE FILE FILES
-    "/home/yildiz/catkin_ws/build/catkin_generated/installspace/setup.sh"
-    "/home/yildiz/catkin_ws/build/catkin_generated/installspace/local_setup.sh"
+    "/home/yildiz/GitRepos/ROS_Samples/build/catkin_generated/installspace/setup.sh"
+    "/home/yildiz/GitRepos/ROS_Samples/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
@@ -111,8 +111,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/home/yildiz/catkin_ws/install" TYPE FILE FILES
-    "/home/yildiz/catkin_ws/build/catkin_generated/installspace/setup.zsh"
-    "/home/yildiz/catkin_ws/build/catkin_generated/installspace/local_setup.zsh"
+    "/home/yildiz/GitRepos/ROS_Samples/build/catkin_generated/installspace/setup.zsh"
+    "/home/yildiz/GitRepos/ROS_Samples/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
@@ -125,14 +125,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/yildiz/catkin_ws/install" TYPE FILE FILES "/home/yildiz/catkin_ws/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/yildiz/catkin_ws/install" TYPE FILE FILES "/home/yildiz/GitRepos/ROS_Samples/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/yildiz/catkin_ws/build/gtest/cmake_install.cmake")
-  include("/home/yildiz/catkin_ws/build/beginner_tutorials/cmake_install.cmake")
-  include("/home/yildiz/catkin_ws/build/ogretici_paket/cmake_install.cmake")
+  include("/home/yildiz/GitRepos/ROS_Samples/build/gtest/cmake_install.cmake")
+  include("/home/yildiz/GitRepos/ROS_Samples/build/beginner_tutorials/cmake_install.cmake")
+  include("/home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket/cmake_install.cmake")
 
 endif()
 
@@ -144,5 +144,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/yildiz/catkin_ws/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/yildiz/GitRepos/ROS_Samples/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

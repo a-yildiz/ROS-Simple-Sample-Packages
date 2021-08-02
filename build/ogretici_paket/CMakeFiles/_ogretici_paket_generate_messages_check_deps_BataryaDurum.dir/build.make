@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/yildiz/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yildiz/catkin_ws/build
+CMAKE_BINARY_DIR = /home/yildiz/GitRepos/ROS_Samples/build
 
 # Utility rule file for _ogretici_paket_generate_messages_check_deps_BataryaDurum.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/yildiz/catkin_ws/build
 include ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_BataryaDurum.dir/progress.make
 
 ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_BataryaDurum:
-	cd /home/yildiz/catkin_ws/build/ogretici_paket && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ogretici_paket /home/yildiz/catkin_ws/src/ogretici_paket/msg/BataryaDurum.msg 
+	cd /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ogretici_paket /home/yildiz/catkin_ws/src/ogretici_paket/msg/BataryaDurum.msg 
 
 _ogretici_paket_generate_messages_check_deps_BataryaDurum: ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_BataryaDurum
 _ogretici_paket_generate_messages_check_deps_BataryaDurum: ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_BataryaDurum.dir/build.make
@@ -67,10 +67,10 @@ ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_BataryaDu
 .PHONY : ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_BataryaDurum.dir/build
 
 ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_BataryaDurum.dir/clean:
-	cd /home/yildiz/catkin_ws/build/ogretici_paket && $(CMAKE_COMMAND) -P CMakeFiles/_ogretici_paket_generate_messages_check_deps_BataryaDurum.dir/cmake_clean.cmake
+	cd /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket && $(CMAKE_COMMAND) -P CMakeFiles/_ogretici_paket_generate_messages_check_deps_BataryaDurum.dir/cmake_clean.cmake
 .PHONY : ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_BataryaDurum.dir/clean
 
 ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_BataryaDurum.dir/depend:
-	cd /home/yildiz/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yildiz/catkin_ws/src /home/yildiz/catkin_ws/src/ogretici_paket /home/yildiz/catkin_ws/build /home/yildiz/catkin_ws/build/ogretici_paket /home/yildiz/catkin_ws/build/ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_BataryaDurum.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yildiz/GitRepos/ROS_Samples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yildiz/catkin_ws/src /home/yildiz/catkin_ws/src/ogretici_paket /home/yildiz/GitRepos/ROS_Samples/build /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_BataryaDurum.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_BataryaDurum.dir/depend
 

@@ -1,3 +1,7 @@
 float64 hedef_konum
 ---
 float64 gecen_sure
+
+# The ordering above is:
+# client request
+# server response

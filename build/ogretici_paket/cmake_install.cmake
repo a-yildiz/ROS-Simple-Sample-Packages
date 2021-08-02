@@ -46,7 +46,23 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ogretici_paket/cmake" TYPE FILE FILES "/home/yildiz/catkin_ws/build/ogretici_paket/catkin_generated/installspace/ogretici_paket-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ogretici_paket/action" TYPE FILE FILES "/home/yildiz/catkin_ws/src/ogretici_paket/action/GorevDurum.action")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ogretici_paket/msg" TYPE FILE FILES
+    "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumAction.msg"
+    "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg"
+    "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg"
+    "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg"
+    "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg"
+    "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg"
+    "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ogretici_paket/cmake" TYPE FILE FILES "/home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket/catkin_generated/installspace/ogretici_paket-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -74,17 +90,17 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/yildiz/catkin_ws/build/ogretici_paket/catkin_generated/installspace/ogretici_paket.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket/catkin_generated/installspace/ogretici_paket.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ogretici_paket/cmake" TYPE FILE FILES "/home/yildiz/catkin_ws/build/ogretici_paket/catkin_generated/installspace/ogretici_paket-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ogretici_paket/cmake" TYPE FILE FILES "/home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket/catkin_generated/installspace/ogretici_paket-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ogretici_paket/cmake" TYPE FILE FILES
-    "/home/yildiz/catkin_ws/build/ogretici_paket/catkin_generated/installspace/ogretici_paketConfig.cmake"
-    "/home/yildiz/catkin_ws/build/ogretici_paket/catkin_generated/installspace/ogretici_paketConfig-version.cmake"
+    "/home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket/catkin_generated/installspace/ogretici_paketConfig.cmake"
+    "/home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket/catkin_generated/installspace/ogretici_paketConfig-version.cmake"
     )
 endif()
 

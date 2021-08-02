@@ -126,6 +126,10 @@ class GecenZamanResponse(genpy.Message):
   _has_header = False  # flag to mark the presence of a Header object
   _full_text = """float64 gecen_sure
 
+# The ordering above is:
+# client request
+# server response
+
 """
   __slots__ = ['gecen_sure']
   _slot_types = ['float64']

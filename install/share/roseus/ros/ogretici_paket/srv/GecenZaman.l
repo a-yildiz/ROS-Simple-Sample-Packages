@@ -111,6 +111,10 @@
 ---
 float64 gecen_sure
 
+# The ordering above is:
+# client request
+# server response
+
 ")
 
 (setf (get ogretici_paket::GecenZamanResponse :md5sum-) "d89a3e566b5de459800ae97d9237aa5b")
@@ -119,6 +123,10 @@ float64 gecen_sure
       "float64 hedef_konum
 ---
 float64 gecen_sure
+
+# The ordering above is:
+# client request
+# server response
 
 ")
 
