@@ -11,6 +11,7 @@ This repo has some ROS components to get an initial ROS package up-and-running.
 ## Notes
 - In VS Code, open your workspace folder directory as the `catkin_ws` folder in this repo, as named commonly in the ROS community. 
 - Remember to `source devel/setup.sh` for every new terminal. If frequently used, can be added to `~/.bashrc`.
+- For anything related to `turtlebot3`, you will need to `export TURTLEBOT3_MODEL=<bot_type>` in each termninal. Options are `burger`, `waffle` and `waffle_pi`. Do not add any space before or after the `=` symbol. If frequently used, can be added to `~/.bashrc`.
 - You will need to one-time `chmod +x` each Python script after creating it, making it executable. Once done, you should see the filename show in green instead of white when you `ls`.
 - If you get errors during `catkin_make`, especially after moving directories, delete the compiled `build`, `devel` and `install` folders in `catkin_ws` and re-create them using `catkin_make`.
 - The packages related to `turtlebot3` inside `catkin_ws/src` were cloned directly from their Git repos using the following commands:
