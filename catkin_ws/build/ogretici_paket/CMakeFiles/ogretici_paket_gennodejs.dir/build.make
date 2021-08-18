@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yildiz/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/yildiz/GitRepos/ROS_Samples/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yildiz/GitRepos/ROS_Samples/build
+CMAKE_BINARY_DIR = /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build
 
 # Utility rule file for ogretici_paket_gennodejs.
 
@@ -63,10 +63,10 @@ ogretici_paket/CMakeFiles/ogretici_paket_gennodejs.dir/build: ogretici_paket_gen
 .PHONY : ogretici_paket/CMakeFiles/ogretici_paket_gennodejs.dir/build
 
 ogretici_paket/CMakeFiles/ogretici_paket_gennodejs.dir/clean:
-	cd /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket && $(CMAKE_COMMAND) -P CMakeFiles/ogretici_paket_gennodejs.dir/cmake_clean.cmake
+	cd /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/ogretici_paket && $(CMAKE_COMMAND) -P CMakeFiles/ogretici_paket_gennodejs.dir/cmake_clean.cmake
 .PHONY : ogretici_paket/CMakeFiles/ogretici_paket_gennodejs.dir/clean
 
 ogretici_paket/CMakeFiles/ogretici_paket_gennodejs.dir/depend:
-	cd /home/yildiz/GitRepos/ROS_Samples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yildiz/catkin_ws/src /home/yildiz/catkin_ws/src/ogretici_paket /home/yildiz/GitRepos/ROS_Samples/build /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket/CMakeFiles/ogretici_paket_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yildiz/GitRepos/ROS_Samples/catkin_ws/src /home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/ogretici_paket /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/ogretici_paket/CMakeFiles/ogretici_paket_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ogretici_paket/CMakeFiles/ogretici_paket_gennodejs.dir/depend
 

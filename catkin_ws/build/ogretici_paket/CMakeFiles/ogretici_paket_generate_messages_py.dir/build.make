@@ -43,132 +43,132 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yildiz/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/yildiz/GitRepos/ROS_Samples/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yildiz/GitRepos/ROS_Samples/build
+CMAKE_BINARY_DIR = /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build
 
 # Utility rule file for ogretici_paket_generate_messages_py.
 
 # Include the progress variables for this target.
 include ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py.dir/progress.make
 
-ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_BataryaDurum.py
-ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumAction.py
-ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionGoal.py
-ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionResult.py
-ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionFeedback.py
-ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumGoal.py
-ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumResult.py
-ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumFeedback.py
-ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv/_GecenZaman.py
-ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/__init__.py
-ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv/__init__.py
+ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_BataryaDurum.py
+ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumAction.py
+ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionGoal.py
+ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionResult.py
+ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionFeedback.py
+ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumGoal.py
+ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumResult.py
+ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumFeedback.py
+ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv/_GecenZaman.py
+ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/__init__.py
+ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv/__init__.py
 
 
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_BataryaDurum.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_BataryaDurum.py: /home/yildiz/catkin_ws/src/ogretici_paket/msg/BataryaDurum.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yildiz/GitRepos/ROS_Samples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG ogretici_paket/BataryaDurum"
-	cd /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/yildiz/catkin_ws/src/ogretici_paket/msg/BataryaDurum.msg -Iogretici_paket:/home/yildiz/catkin_ws/src/ogretici_paket/msg -Iogretici_paket:/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p ogretici_paket -o /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_BataryaDurum.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_BataryaDurum.py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket/msg/BataryaDurum.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG ogretici_paket/BataryaDurum"
+	cd /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/ogretici_paket && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket/msg/BataryaDurum.msg -Iogretici_paket:/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket/msg -Iogretici_paket:/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p ogretici_paket -o /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg
 
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumAction.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumAction.py: /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumAction.msg
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumAction.py: /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumAction.py: /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumAction.py: /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumAction.py: /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumAction.py: /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumAction.py: /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yildiz/GitRepos/ROS_Samples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG ogretici_paket/GorevDurumAction"
-	cd /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumAction.msg -Iogretici_paket:/home/yildiz/catkin_ws/src/ogretici_paket/msg -Iogretici_paket:/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p ogretici_paket -o /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumAction.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumAction.py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumAction.msg
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumAction.py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumAction.py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumAction.py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumAction.py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumAction.py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumAction.py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG ogretici_paket/GorevDurumAction"
+	cd /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/ogretici_paket && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumAction.msg -Iogretici_paket:/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket/msg -Iogretici_paket:/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p ogretici_paket -o /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg
 
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionGoal.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionGoal.py: /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionGoal.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionGoal.py: /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionGoal.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yildiz/GitRepos/ROS_Samples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG ogretici_paket/GorevDurumActionGoal"
-	cd /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg -Iogretici_paket:/home/yildiz/catkin_ws/src/ogretici_paket/msg -Iogretici_paket:/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p ogretici_paket -o /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionGoal.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionGoal.py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionGoal.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionGoal.py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionGoal.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG ogretici_paket/GorevDurumActionGoal"
+	cd /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/ogretici_paket && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg -Iogretici_paket:/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket/msg -Iogretici_paket:/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p ogretici_paket -o /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg
 
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionResult.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionResult.py: /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionResult.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionResult.py: /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yildiz/GitRepos/ROS_Samples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python from MSG ogretici_paket/GorevDurumActionResult"
-	cd /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg -Iogretici_paket:/home/yildiz/catkin_ws/src/ogretici_paket/msg -Iogretici_paket:/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p ogretici_paket -o /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionResult.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionResult.py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionResult.py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionResult.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python from MSG ogretici_paket/GorevDurumActionResult"
+	cd /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/ogretici_paket && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg -Iogretici_paket:/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket/msg -Iogretici_paket:/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p ogretici_paket -o /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg
 
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionFeedback.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionFeedback.py: /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionFeedback.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionFeedback.py: /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yildiz/GitRepos/ROS_Samples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python from MSG ogretici_paket/GorevDurumActionFeedback"
-	cd /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg -Iogretici_paket:/home/yildiz/catkin_ws/src/ogretici_paket/msg -Iogretici_paket:/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p ogretici_paket -o /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionFeedback.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionFeedback.py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionFeedback.py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionFeedback.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python from MSG ogretici_paket/GorevDurumActionFeedback"
+	cd /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/ogretici_paket && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg -Iogretici_paket:/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket/msg -Iogretici_paket:/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p ogretici_paket -o /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg
 
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumGoal.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumGoal.py: /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yildiz/GitRepos/ROS_Samples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Python from MSG ogretici_paket/GorevDurumGoal"
-	cd /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg -Iogretici_paket:/home/yildiz/catkin_ws/src/ogretici_paket/msg -Iogretici_paket:/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p ogretici_paket -o /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumGoal.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumGoal.py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Python from MSG ogretici_paket/GorevDurumGoal"
+	cd /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/ogretici_paket && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg -Iogretici_paket:/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket/msg -Iogretici_paket:/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p ogretici_paket -o /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg
 
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumResult.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumResult.py: /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yildiz/GitRepos/ROS_Samples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Python from MSG ogretici_paket/GorevDurumResult"
-	cd /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg -Iogretici_paket:/home/yildiz/catkin_ws/src/ogretici_paket/msg -Iogretici_paket:/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p ogretici_paket -o /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumResult.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumResult.py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Python from MSG ogretici_paket/GorevDurumResult"
+	cd /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/ogretici_paket && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg -Iogretici_paket:/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket/msg -Iogretici_paket:/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p ogretici_paket -o /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg
 
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumFeedback.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumFeedback.py: /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yildiz/GitRepos/ROS_Samples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Python from MSG ogretici_paket/GorevDurumFeedback"
-	cd /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg -Iogretici_paket:/home/yildiz/catkin_ws/src/ogretici_paket/msg -Iogretici_paket:/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p ogretici_paket -o /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumFeedback.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumFeedback.py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Python from MSG ogretici_paket/GorevDurumFeedback"
+	cd /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/ogretici_paket && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg -Iogretici_paket:/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket/msg -Iogretici_paket:/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p ogretici_paket -o /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg
 
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv/_GecenZaman.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv/_GecenZaman.py: /home/yildiz/catkin_ws/src/ogretici_paket/srv/GecenZaman.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yildiz/GitRepos/ROS_Samples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Python code from SRV ogretici_paket/GecenZaman"
-	cd /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/yildiz/catkin_ws/src/ogretici_paket/srv/GecenZaman.srv -Iogretici_paket:/home/yildiz/catkin_ws/src/ogretici_paket/msg -Iogretici_paket:/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p ogretici_paket -o /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv/_GecenZaman.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv/_GecenZaman.py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket/srv/GecenZaman.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Python code from SRV ogretici_paket/GecenZaman"
+	cd /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/ogretici_paket && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket/srv/GecenZaman.srv -Iogretici_paket:/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket/msg -Iogretici_paket:/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p ogretici_paket -o /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv
 
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/__init__.py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_BataryaDurum.py
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/__init__.py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumAction.py
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/__init__.py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionGoal.py
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/__init__.py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionResult.py
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/__init__.py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionFeedback.py
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/__init__.py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumGoal.py
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/__init__.py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumResult.py
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/__init__.py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumFeedback.py
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/__init__.py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv/_GecenZaman.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yildiz/GitRepos/ROS_Samples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Python msg __init__.py for ogretici_paket"
-	cd /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg --initpy
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/__init__.py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_BataryaDurum.py
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/__init__.py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumAction.py
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/__init__.py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionGoal.py
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/__init__.py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionResult.py
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/__init__.py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionFeedback.py
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/__init__.py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumGoal.py
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/__init__.py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumResult.py
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/__init__.py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumFeedback.py
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/__init__.py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv/_GecenZaman.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Python msg __init__.py for ogretici_paket"
+	cd /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/ogretici_paket && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg --initpy
 
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv/__init__.py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_BataryaDurum.py
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv/__init__.py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumAction.py
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv/__init__.py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionGoal.py
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv/__init__.py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionResult.py
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv/__init__.py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionFeedback.py
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv/__init__.py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumGoal.py
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv/__init__.py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumResult.py
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv/__init__.py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumFeedback.py
-/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv/__init__.py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv/_GecenZaman.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yildiz/GitRepos/ROS_Samples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Python srv __init__.py for ogretici_paket"
-	cd /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv --initpy
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv/__init__.py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_BataryaDurum.py
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv/__init__.py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumAction.py
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv/__init__.py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionGoal.py
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv/__init__.py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionResult.py
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv/__init__.py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionFeedback.py
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv/__init__.py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumGoal.py
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv/__init__.py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumResult.py
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv/__init__.py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumFeedback.py
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv/__init__.py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv/_GecenZaman.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Python srv __init__.py for ogretici_paket"
+	cd /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/ogretici_paket && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv --initpy
 
 ogretici_paket_generate_messages_py: ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py
-ogretici_paket_generate_messages_py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_BataryaDurum.py
-ogretici_paket_generate_messages_py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumAction.py
-ogretici_paket_generate_messages_py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionGoal.py
-ogretici_paket_generate_messages_py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionResult.py
-ogretici_paket_generate_messages_py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionFeedback.py
-ogretici_paket_generate_messages_py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumGoal.py
-ogretici_paket_generate_messages_py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumResult.py
-ogretici_paket_generate_messages_py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumFeedback.py
-ogretici_paket_generate_messages_py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv/_GecenZaman.py
-ogretici_paket_generate_messages_py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/__init__.py
-ogretici_paket_generate_messages_py: /home/yildiz/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv/__init__.py
+ogretici_paket_generate_messages_py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_BataryaDurum.py
+ogretici_paket_generate_messages_py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumAction.py
+ogretici_paket_generate_messages_py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionGoal.py
+ogretici_paket_generate_messages_py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionResult.py
+ogretici_paket_generate_messages_py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumActionFeedback.py
+ogretici_paket_generate_messages_py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumGoal.py
+ogretici_paket_generate_messages_py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumResult.py
+ogretici_paket_generate_messages_py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/_GorevDurumFeedback.py
+ogretici_paket_generate_messages_py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv/_GecenZaman.py
+ogretici_paket_generate_messages_py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/msg/__init__.py
+ogretici_paket_generate_messages_py: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/ogretici_paket/srv/__init__.py
 ogretici_paket_generate_messages_py: ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py.dir/build.make
 
 .PHONY : ogretici_paket_generate_messages_py
@@ -179,10 +179,10 @@ ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py.dir/build: ogretic
 .PHONY : ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py.dir/build
 
 ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py.dir/clean:
-	cd /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket && $(CMAKE_COMMAND) -P CMakeFiles/ogretici_paket_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/ogretici_paket && $(CMAKE_COMMAND) -P CMakeFiles/ogretici_paket_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py.dir/clean
 
 ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py.dir/depend:
-	cd /home/yildiz/GitRepos/ROS_Samples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yildiz/catkin_ws/src /home/yildiz/catkin_ws/src/ogretici_paket /home/yildiz/GitRepos/ROS_Samples/build /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yildiz/GitRepos/ROS_Samples/catkin_ws/src /home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/ogretici_paket /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ogretici_paket/CMakeFiles/ogretici_paket_generate_messages_py.dir/depend
 

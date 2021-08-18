@@ -2,7 +2,7 @@
 
 message(STATUS "ogretici_paket: 8 messages, 1 services")
 
-set(MSG_I_FLAGS "-Iogretici_paket:/home/yildiz/catkin_ws/src/ogretici_paket/msg;-Iogretici_paket:/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Iogretici_paket:/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket/msg;-Iogretici_paket:/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,49 +17,49 @@ add_custom_target(ogretici_paket_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/yildiz/catkin_ws/src/ogretici_paket/msg/BataryaDurum.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket/msg/BataryaDurum.msg" NAME_WE)
 add_custom_target(_ogretici_paket_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ogretici_paket" "/home/yildiz/catkin_ws/src/ogretici_paket/msg/BataryaDurum.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ogretici_paket" "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket/msg/BataryaDurum.msg" ""
 )
 
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumAction.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumAction.msg" NAME_WE)
 add_custom_target(_ogretici_paket_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ogretici_paket" "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumAction.msg" "actionlib_msgs/GoalID:std_msgs/Header:ogretici_paket/GorevDurumActionFeedback:ogretici_paket/GorevDurumFeedback:actionlib_msgs/GoalStatus:ogretici_paket/GorevDurumActionGoal:ogretici_paket/GorevDurumGoal:ogretici_paket/GorevDurumActionResult:ogretici_paket/GorevDurumResult"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ogretici_paket" "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumAction.msg" "ogretici_paket/GorevDurumFeedback:ogretici_paket/GorevDurumResult:ogretici_paket/GorevDurumActionGoal:std_msgs/Header:ogretici_paket/GorevDurumActionResult:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:ogretici_paket/GorevDurumActionFeedback:ogretici_paket/GorevDurumGoal"
 )
 
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg" NAME_WE)
 add_custom_target(_ogretici_paket_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ogretici_paket" "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg" "std_msgs/Header:ogretici_paket/GorevDurumGoal:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ogretici_paket" "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg" "actionlib_msgs/GoalID:ogretici_paket/GorevDurumGoal:std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg" NAME_WE)
 add_custom_target(_ogretici_paket_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ogretici_paket" "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg" "actionlib_msgs/GoalStatus:std_msgs/Header:ogretici_paket/GorevDurumResult:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ogretici_paket" "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg" "actionlib_msgs/GoalID:ogretici_paket/GorevDurumResult:actionlib_msgs/GoalStatus:std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg" NAME_WE)
 add_custom_target(_ogretici_paket_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ogretici_paket" "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg" "actionlib_msgs/GoalStatus:std_msgs/Header:actionlib_msgs/GoalID:ogretici_paket/GorevDurumFeedback"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ogretici_paket" "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg" "actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:ogretici_paket/GorevDurumFeedback:std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg" NAME_WE)
 add_custom_target(_ogretici_paket_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ogretici_paket" "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ogretici_paket" "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg" ""
 )
 
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg" NAME_WE)
 add_custom_target(_ogretici_paket_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ogretici_paket" "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ogretici_paket" "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg" ""
 )
 
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg" NAME_WE)
 add_custom_target(_ogretici_paket_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ogretici_paket" "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ogretici_paket" "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg" ""
 )
 
-get_filename_component(_filename "/home/yildiz/catkin_ws/src/ogretici_paket/srv/GecenZaman.srv" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket/srv/GecenZaman.srv" NAME_WE)
 add_custom_target(_ogretici_paket_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ogretici_paket" "/home/yildiz/catkin_ws/src/ogretici_paket/srv/GecenZaman.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ogretici_paket" "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket/srv/GecenZaman.srv" ""
 )
 
 #
@@ -69,49 +69,49 @@ add_custom_target(_ogretici_paket_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(ogretici_paket
-  "/home/yildiz/catkin_ws/src/ogretici_paket/msg/BataryaDurum.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket/msg/BataryaDurum.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ogretici_paket
 )
 _generate_msg_cpp(ogretici_paket
-  "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumAction.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ogretici_paket
 )
 _generate_msg_cpp(ogretici_paket
-  "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ogretici_paket
 )
 _generate_msg_cpp(ogretici_paket
-  "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ogretici_paket
 )
 _generate_msg_cpp(ogretici_paket
-  "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ogretici_paket
 )
 _generate_msg_cpp(ogretici_paket
-  "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ogretici_paket
-)
-_generate_msg_cpp(ogretici_paket
-  "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ogretici_paket
 )
 _generate_msg_cpp(ogretici_paket
-  "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ogretici_paket
+)
+_generate_msg_cpp(ogretici_paket
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ogretici_paket
@@ -119,7 +119,7 @@ _generate_msg_cpp(ogretici_paket
 
 ### Generating Services
 _generate_srv_cpp(ogretici_paket
-  "/home/yildiz/catkin_ws/src/ogretici_paket/srv/GecenZaman.srv"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket/srv/GecenZaman.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ogretici_paket
@@ -137,23 +137,23 @@ add_custom_target(ogretici_paket_generate_messages_cpp
 add_dependencies(ogretici_paket_generate_messages ogretici_paket_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/yildiz/catkin_ws/src/ogretici_paket/msg/BataryaDurum.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket/msg/BataryaDurum.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_cpp _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumAction.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumAction.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_cpp _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_cpp _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_cpp _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_cpp _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_cpp _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_cpp _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_cpp _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/src/ogretici_paket/srv/GecenZaman.srv" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket/srv/GecenZaman.srv" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_cpp _ogretici_paket_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -166,49 +166,49 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ogretici_paket_generate_messages_cp
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(ogretici_paket
-  "/home/yildiz/catkin_ws/src/ogretici_paket/msg/BataryaDurum.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket/msg/BataryaDurum.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ogretici_paket
 )
 _generate_msg_eus(ogretici_paket
-  "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumAction.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ogretici_paket
 )
 _generate_msg_eus(ogretici_paket
-  "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ogretici_paket
 )
 _generate_msg_eus(ogretici_paket
-  "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ogretici_paket
 )
 _generate_msg_eus(ogretici_paket
-  "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ogretici_paket
 )
 _generate_msg_eus(ogretici_paket
-  "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ogretici_paket
-)
-_generate_msg_eus(ogretici_paket
-  "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ogretici_paket
 )
 _generate_msg_eus(ogretici_paket
-  "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ogretici_paket
+)
+_generate_msg_eus(ogretici_paket
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ogretici_paket
@@ -216,7 +216,7 @@ _generate_msg_eus(ogretici_paket
 
 ### Generating Services
 _generate_srv_eus(ogretici_paket
-  "/home/yildiz/catkin_ws/src/ogretici_paket/srv/GecenZaman.srv"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket/srv/GecenZaman.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ogretici_paket
@@ -234,23 +234,23 @@ add_custom_target(ogretici_paket_generate_messages_eus
 add_dependencies(ogretici_paket_generate_messages ogretici_paket_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/yildiz/catkin_ws/src/ogretici_paket/msg/BataryaDurum.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket/msg/BataryaDurum.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_eus _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumAction.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumAction.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_eus _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_eus _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_eus _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_eus _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_eus _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_eus _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_eus _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/src/ogretici_paket/srv/GecenZaman.srv" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket/srv/GecenZaman.srv" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_eus _ogretici_paket_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -263,49 +263,49 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ogretici_paket_generate_messages_eu
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(ogretici_paket
-  "/home/yildiz/catkin_ws/src/ogretici_paket/msg/BataryaDurum.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket/msg/BataryaDurum.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ogretici_paket
 )
 _generate_msg_lisp(ogretici_paket
-  "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumAction.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ogretici_paket
 )
 _generate_msg_lisp(ogretici_paket
-  "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ogretici_paket
 )
 _generate_msg_lisp(ogretici_paket
-  "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ogretici_paket
 )
 _generate_msg_lisp(ogretici_paket
-  "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ogretici_paket
 )
 _generate_msg_lisp(ogretici_paket
-  "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ogretici_paket
-)
-_generate_msg_lisp(ogretici_paket
-  "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ogretici_paket
 )
 _generate_msg_lisp(ogretici_paket
-  "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ogretici_paket
+)
+_generate_msg_lisp(ogretici_paket
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ogretici_paket
@@ -313,7 +313,7 @@ _generate_msg_lisp(ogretici_paket
 
 ### Generating Services
 _generate_srv_lisp(ogretici_paket
-  "/home/yildiz/catkin_ws/src/ogretici_paket/srv/GecenZaman.srv"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket/srv/GecenZaman.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ogretici_paket
@@ -331,23 +331,23 @@ add_custom_target(ogretici_paket_generate_messages_lisp
 add_dependencies(ogretici_paket_generate_messages ogretici_paket_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/yildiz/catkin_ws/src/ogretici_paket/msg/BataryaDurum.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket/msg/BataryaDurum.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_lisp _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumAction.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumAction.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_lisp _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_lisp _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_lisp _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_lisp _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_lisp _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_lisp _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_lisp _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/src/ogretici_paket/srv/GecenZaman.srv" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket/srv/GecenZaman.srv" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_lisp _ogretici_paket_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -360,49 +360,49 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ogretici_paket_generate_messages_li
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(ogretici_paket
-  "/home/yildiz/catkin_ws/src/ogretici_paket/msg/BataryaDurum.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket/msg/BataryaDurum.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ogretici_paket
 )
 _generate_msg_nodejs(ogretici_paket
-  "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumAction.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ogretici_paket
 )
 _generate_msg_nodejs(ogretici_paket
-  "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ogretici_paket
 )
 _generate_msg_nodejs(ogretici_paket
-  "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ogretici_paket
 )
 _generate_msg_nodejs(ogretici_paket
-  "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ogretici_paket
 )
 _generate_msg_nodejs(ogretici_paket
-  "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ogretici_paket
-)
-_generate_msg_nodejs(ogretici_paket
-  "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ogretici_paket
 )
 _generate_msg_nodejs(ogretici_paket
-  "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ogretici_paket
+)
+_generate_msg_nodejs(ogretici_paket
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ogretici_paket
@@ -410,7 +410,7 @@ _generate_msg_nodejs(ogretici_paket
 
 ### Generating Services
 _generate_srv_nodejs(ogretici_paket
-  "/home/yildiz/catkin_ws/src/ogretici_paket/srv/GecenZaman.srv"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket/srv/GecenZaman.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ogretici_paket
@@ -428,23 +428,23 @@ add_custom_target(ogretici_paket_generate_messages_nodejs
 add_dependencies(ogretici_paket_generate_messages ogretici_paket_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/yildiz/catkin_ws/src/ogretici_paket/msg/BataryaDurum.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket/msg/BataryaDurum.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_nodejs _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumAction.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumAction.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_nodejs _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_nodejs _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_nodejs _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_nodejs _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_nodejs _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_nodejs _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_nodejs _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/src/ogretici_paket/srv/GecenZaman.srv" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket/srv/GecenZaman.srv" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_nodejs _ogretici_paket_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -457,49 +457,49 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ogretici_paket_generate_messages_no
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(ogretici_paket
-  "/home/yildiz/catkin_ws/src/ogretici_paket/msg/BataryaDurum.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket/msg/BataryaDurum.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ogretici_paket
 )
 _generate_msg_py(ogretici_paket
-  "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumAction.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ogretici_paket
 )
 _generate_msg_py(ogretici_paket
-  "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ogretici_paket
 )
 _generate_msg_py(ogretici_paket
-  "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ogretici_paket
 )
 _generate_msg_py(ogretici_paket
-  "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ogretici_paket
 )
 _generate_msg_py(ogretici_paket
-  "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ogretici_paket
-)
-_generate_msg_py(ogretici_paket
-  "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ogretici_paket
 )
 _generate_msg_py(ogretici_paket
-  "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ogretici_paket
+)
+_generate_msg_py(ogretici_paket
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ogretici_paket
@@ -507,7 +507,7 @@ _generate_msg_py(ogretici_paket
 
 ### Generating Services
 _generate_srv_py(ogretici_paket
-  "/home/yildiz/catkin_ws/src/ogretici_paket/srv/GecenZaman.srv"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket/srv/GecenZaman.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ogretici_paket
@@ -525,23 +525,23 @@ add_custom_target(ogretici_paket_generate_messages_py
 add_dependencies(ogretici_paket_generate_messages ogretici_paket_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/yildiz/catkin_ws/src/ogretici_paket/msg/BataryaDurum.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket/msg/BataryaDurum.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_py _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumAction.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumAction.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_py _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionGoal.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_py _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionResult.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_py _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_py _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumGoal.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_py _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumResult.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_py _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumFeedback.msg" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_py _ogretici_paket_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/yildiz/catkin_ws/src/ogretici_paket/srv/GecenZaman.srv" NAME_WE)
+get_filename_component(_filename "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket/srv/GecenZaman.srv" NAME_WE)
 add_dependencies(ogretici_paket_generate_messages_py _ogretici_paket_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

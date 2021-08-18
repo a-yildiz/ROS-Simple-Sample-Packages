@@ -1,4 +1,4 @@
-prefix=/home/yildiz/catkin_ws/devel
+prefix=/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel
 
 Name: turtlebot3_navigation
 Description: Description of turtlebot3_navigation

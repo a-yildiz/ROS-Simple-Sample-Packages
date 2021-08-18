@@ -1,11 +1,11 @@
 file(REMOVE_RECURSE
-  "/home/yildiz/catkin_ws/devel/include/turtlebot3_example/Turtlebot3Action.h"
-  "/home/yildiz/catkin_ws/devel/include/turtlebot3_example/Turtlebot3ActionFeedback.h"
-  "/home/yildiz/catkin_ws/devel/include/turtlebot3_example/Turtlebot3ActionGoal.h"
-  "/home/yildiz/catkin_ws/devel/include/turtlebot3_example/Turtlebot3ActionResult.h"
-  "/home/yildiz/catkin_ws/devel/include/turtlebot3_example/Turtlebot3Feedback.h"
-  "/home/yildiz/catkin_ws/devel/include/turtlebot3_example/Turtlebot3Goal.h"
-  "/home/yildiz/catkin_ws/devel/include/turtlebot3_example/Turtlebot3Result.h"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/include/turtlebot3_example/Turtlebot3Action.h"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/include/turtlebot3_example/Turtlebot3ActionFeedback.h"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/include/turtlebot3_example/Turtlebot3ActionGoal.h"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/include/turtlebot3_example/Turtlebot3ActionResult.h"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/include/turtlebot3_example/Turtlebot3Feedback.h"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/include/turtlebot3_example/Turtlebot3Goal.h"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/include/turtlebot3_example/Turtlebot3Result.h"
   "CMakeFiles/turtlebot3_example_generate_messages_cpp"
 )
 

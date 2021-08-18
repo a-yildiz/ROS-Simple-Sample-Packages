@@ -1,8 +1,8 @@
-# Install script for directory: /home/yildiz/catkin_ws/src/turtlebot3/turtlebot3
+# Install script for directory: /home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/turtlebot3/turtlebot3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/yildiz/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,6 +38,6 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3" TYPE FILE FILES "/home/yildiz/catkin_ws/src/turtlebot3/turtlebot3/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3" TYPE FILE FILES "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/turtlebot3/turtlebot3/package.xml")
 endif()
 

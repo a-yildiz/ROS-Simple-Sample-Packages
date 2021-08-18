@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yildiz/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/yildiz/GitRepos/ROS_Samples/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yildiz/GitRepos/ROS_Samples/build
+CMAKE_BINARY_DIR = /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build
 
 # Utility rule file for _ogretici_paket_generate_messages_check_deps_GecenZaman.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/yildiz/GitRepos/ROS_Samples/build
 include ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GecenZaman.dir/progress.make
 
 ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GecenZaman:
-	cd /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ogretici_paket /home/yildiz/catkin_ws/src/ogretici_paket/srv/GecenZaman.srv 
+	cd /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/ogretici_paket && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ogretici_paket /home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket/srv/GecenZaman.srv 
 
 _ogretici_paket_generate_messages_check_deps_GecenZaman: ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GecenZaman
 _ogretici_paket_generate_messages_check_deps_GecenZaman: ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GecenZaman.dir/build.make
@@ -67,10 +67,10 @@ ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GecenZama
 .PHONY : ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GecenZaman.dir/build
 
 ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GecenZaman.dir/clean:
-	cd /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket && $(CMAKE_COMMAND) -P CMakeFiles/_ogretici_paket_generate_messages_check_deps_GecenZaman.dir/cmake_clean.cmake
+	cd /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/ogretici_paket && $(CMAKE_COMMAND) -P CMakeFiles/_ogretici_paket_generate_messages_check_deps_GecenZaman.dir/cmake_clean.cmake
 .PHONY : ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GecenZaman.dir/clean
 
 ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GecenZaman.dir/depend:
-	cd /home/yildiz/GitRepos/ROS_Samples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yildiz/catkin_ws/src /home/yildiz/catkin_ws/src/ogretici_paket /home/yildiz/GitRepos/ROS_Samples/build /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket /home/yildiz/GitRepos/ROS_Samples/build/ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GecenZaman.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yildiz/GitRepos/ROS_Samples/catkin_ws/src /home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/ogretici_paket /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/ogretici_paket /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GecenZaman.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GecenZaman.dir/depend
 

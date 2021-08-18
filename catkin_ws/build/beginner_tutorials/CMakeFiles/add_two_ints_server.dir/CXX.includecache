@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/yildiz/catkin_ws/devel/include/beginner_tutorials/AddTwoInts.h
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/include/beginner_tutorials/AddTwoInts.h
 ros/service_traits.h
 -
 beginner_tutorials/AddTwoIntsRequest.h
@@ -14,7 +14,7 @@ beginner_tutorials/AddTwoIntsRequest.h
 beginner_tutorials/AddTwoIntsResponse.h
 -
 
-/home/yildiz/catkin_ws/devel/include/beginner_tutorials/AddTwoIntsRequest.h
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/include/beginner_tutorials/AddTwoIntsRequest.h
 string
 -
 vector
@@ -30,7 +30,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/yildiz/catkin_ws/devel/include/beginner_tutorials/AddTwoIntsResponse.h
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/include/beginner_tutorials/AddTwoIntsResponse.h
 string
 -
 vector
@@ -46,11 +46,11 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/yildiz/catkin_ws/src/beginner_tutorials/src/add_two_ints_server.cpp
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/beginner_tutorials/src/add_two_ints_server.cpp
 ros/ros.h
-/home/yildiz/catkin_ws/src/beginner_tutorials/src/ros/ros.h
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/beginner_tutorials/src/ros/ros.h
 beginner_tutorials/AddTwoInts.h
-/home/yildiz/catkin_ws/src/beginner_tutorials/src/beginner_tutorials/AddTwoInts.h
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/beginner_tutorials/src/beginner_tutorials/AddTwoInts.h
 
 /opt/ros/noetic/include/ros/advertise_options.h
 ros/forwards.h

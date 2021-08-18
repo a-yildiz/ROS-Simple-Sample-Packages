@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/yildiz/catkin_ws/devel/include/beginner_tutorials/AddTwoInts.h"
-  "/home/yildiz/catkin_ws/devel/include/beginner_tutorials/Num.h"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/include/beginner_tutorials/AddTwoInts.h"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/include/beginner_tutorials/Num.h"
   "CMakeFiles/beginner_tutorials_generate_messages_cpp"
 )
 

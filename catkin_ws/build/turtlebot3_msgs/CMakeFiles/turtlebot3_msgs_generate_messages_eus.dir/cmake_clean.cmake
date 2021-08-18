@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/yildiz/catkin_ws/devel/share/roseus/ros/turtlebot3_msgs/manifest.l"
-  "/home/yildiz/catkin_ws/devel/share/roseus/ros/turtlebot3_msgs/msg/SensorState.l"
-  "/home/yildiz/catkin_ws/devel/share/roseus/ros/turtlebot3_msgs/msg/Sound.l"
-  "/home/yildiz/catkin_ws/devel/share/roseus/ros/turtlebot3_msgs/msg/VersionInfo.l"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/roseus/ros/turtlebot3_msgs/manifest.l"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/roseus/ros/turtlebot3_msgs/msg/SensorState.l"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/roseus/ros/turtlebot3_msgs/msg/Sound.l"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/share/roseus/ros/turtlebot3_msgs/msg/VersionInfo.l"
   "CMakeFiles/turtlebot3_msgs_generate_messages_eus"
 )
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/yildiz/catkin_ws/devel/lib/beginner_tutorials/add_two_ints_server"
-  "/home/yildiz/catkin_ws/devel/lib/beginner_tutorials/add_two_ints_server.pdb"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/beginner_tutorials/add_two_ints_server"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/beginner_tutorials/add_two_ints_server.pdb"
   "CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o"
 )
 

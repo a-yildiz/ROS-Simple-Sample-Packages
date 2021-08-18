@@ -13,21 +13,21 @@ fi
 
 echo_and_run() { echo "+ $@" ; "$@" ; }
 
-echo_and_run cd "/home/yildiz/catkin_ws/src/turtlebot3/turtlebot3_example"
+echo_and_run cd "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/turtlebot3/turtlebot3_example"
 
 # ensure that Python install destination exists
-echo_and_run mkdir -p "$DESTDIR/home/yildiz/catkin_ws/install/lib/python3/dist-packages"
+echo_and_run mkdir -p "$DESTDIR/home/yildiz/GitRepos/ROS_Samples/catkin_ws/install/lib/python3/dist-packages"
 
 # Note that PYTHONPATH is pulled from the environment to support installing
 # into one location when some dependencies were installed in another
 # location, #123.
 echo_and_run /usr/bin/env \
-    PYTHONPATH="/home/yildiz/catkin_ws/install/lib/python3/dist-packages:/home/yildiz/GitRepos/ROS_Samples/build/lib/python3/dist-packages:$PYTHONPATH" \
-    CATKIN_BINARY_DIR="/home/yildiz/GitRepos/ROS_Samples/build" \
+    PYTHONPATH="/home/yildiz/GitRepos/ROS_Samples/catkin_ws/install/lib/python3/dist-packages:/home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/lib/python3/dist-packages:$PYTHONPATH" \
+    CATKIN_BINARY_DIR="/home/yildiz/GitRepos/ROS_Samples/catkin_ws/build" \
     "/usr/bin/python3" \
-    "/home/yildiz/catkin_ws/src/turtlebot3/turtlebot3_example/setup.py" \
+    "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/turtlebot3/turtlebot3_example/setup.py" \
      \
-    build --build-base "/home/yildiz/GitRepos/ROS_Samples/build/turtlebot3/turtlebot3_example" \
+    build --build-base "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/turtlebot3/turtlebot3_example" \
     install \
     --root="${DESTDIR-/}" \
-    --install-layout=deb --prefix="/home/yildiz/catkin_ws/install" --install-scripts="/home/yildiz/catkin_ws/install/bin"
+    --install-layout=deb --prefix="/home/yildiz/GitRepos/ROS_Samples/catkin_ws/install" --install-scripts="/home/yildiz/GitRepos/ROS_Samples/catkin_ws/install/bin"

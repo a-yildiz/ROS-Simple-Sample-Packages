@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yildiz/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/yildiz/GitRepos/ROS_Samples/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yildiz/GitRepos/ROS_Samples/build
+CMAKE_BINARY_DIR = /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build
 
 # Utility rule file for dynamic_reconfigure_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/dynamic_reconfigure_generate
 .PHONY : turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
 
 turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/clean:
-	cd /home/yildiz/GitRepos/ROS_Samples/build/turtlebot3_simulations/turtlebot3_gazebo && $(CMAKE_COMMAND) -P CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/turtlebot3_simulations/turtlebot3_gazebo && $(CMAKE_COMMAND) -P CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/clean
 
 turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/depend:
-	cd /home/yildiz/GitRepos/ROS_Samples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yildiz/catkin_ws/src /home/yildiz/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo /home/yildiz/GitRepos/ROS_Samples/build /home/yildiz/GitRepos/ROS_Samples/build/turtlebot3_simulations/turtlebot3_gazebo /home/yildiz/GitRepos/ROS_Samples/build/turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yildiz/GitRepos/ROS_Samples/catkin_ws/src /home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/turtlebot3_simulations/turtlebot3_gazebo /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/depend
 

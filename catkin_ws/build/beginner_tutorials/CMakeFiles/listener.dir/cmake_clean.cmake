@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/yildiz/catkin_ws/devel/lib/beginner_tutorials/listener"
-  "/home/yildiz/catkin_ws/devel/lib/beginner_tutorials/listener.pdb"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/beginner_tutorials/listener"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/beginner_tutorials/listener.pdb"
   "CMakeFiles/listener.dir/src/listener.cpp.o"
 )
 

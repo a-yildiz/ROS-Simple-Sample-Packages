@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "urdf;xacro".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "turtlebot3_description"
-PROJECT_SPACE_DIR = "/home/yildiz/catkin_ws/install"
+PROJECT_SPACE_DIR = "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/install"
 PROJECT_VERSION = "1.2.5"

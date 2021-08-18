@@ -1,13 +1,13 @@
 file(REMOVE_RECURSE
-  "/home/yildiz/catkin_ws/devel/include/ogretici_paket/BataryaDurum.h"
-  "/home/yildiz/catkin_ws/devel/include/ogretici_paket/GecenZaman.h"
-  "/home/yildiz/catkin_ws/devel/include/ogretici_paket/GorevDurumAction.h"
-  "/home/yildiz/catkin_ws/devel/include/ogretici_paket/GorevDurumActionFeedback.h"
-  "/home/yildiz/catkin_ws/devel/include/ogretici_paket/GorevDurumActionGoal.h"
-  "/home/yildiz/catkin_ws/devel/include/ogretici_paket/GorevDurumActionResult.h"
-  "/home/yildiz/catkin_ws/devel/include/ogretici_paket/GorevDurumFeedback.h"
-  "/home/yildiz/catkin_ws/devel/include/ogretici_paket/GorevDurumGoal.h"
-  "/home/yildiz/catkin_ws/devel/include/ogretici_paket/GorevDurumResult.h"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/include/ogretici_paket/BataryaDurum.h"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/include/ogretici_paket/GecenZaman.h"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/include/ogretici_paket/GorevDurumAction.h"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/include/ogretici_paket/GorevDurumActionFeedback.h"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/include/ogretici_paket/GorevDurumActionGoal.h"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/include/ogretici_paket/GorevDurumActionResult.h"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/include/ogretici_paket/GorevDurumFeedback.h"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/include/ogretici_paket/GorevDurumGoal.h"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/include/ogretici_paket/GorevDurumResult.h"
   "CMakeFiles/ogretici_paket_generate_messages_cpp"
 )
 

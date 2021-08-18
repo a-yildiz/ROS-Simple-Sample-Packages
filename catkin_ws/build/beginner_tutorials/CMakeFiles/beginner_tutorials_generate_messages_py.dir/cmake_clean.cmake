@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/msg/_Num.py"
-  "/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/msg/__init__.py"
-  "/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/srv/_AddTwoInts.py"
-  "/home/yildiz/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/srv/__init__.py"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/msg/_Num.py"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/msg/__init__.py"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/srv/_AddTwoInts.py"
+  "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/srv/__init__.py"
   "CMakeFiles/beginner_tutorials_generate_messages_py"
 )
 
