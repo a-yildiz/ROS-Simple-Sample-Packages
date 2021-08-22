@@ -9,7 +9,7 @@ def abone_fonksiyonu(gelen_mesaj):
 
 def mesajDinle():
     rospy.init_node("abone_dugumu")
-    rospy.Subscriber("batarya_konusu", BataryaDurum, abone_fonksiyonu)
+    rospy.Subscriber("/batarya_konusu/batarya/sondurum", BataryaDurum, abone_fonksiyonu)
     rospy.spin()
 
 if __name__ == "__main__":
