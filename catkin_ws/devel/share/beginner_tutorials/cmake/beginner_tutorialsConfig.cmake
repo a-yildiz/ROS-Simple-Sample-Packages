@@ -91,15 +91,15 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(beginner_tutorials_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/include;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/beginner_tutorials/include " STREQUAL " ")
+if(NOT "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/include " STREQUAL " ")
   set(beginner_tutorials_INCLUDE_DIRS "")
-  set(_include_dirs "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/include;/home/yildiz/GitRepos/ROS_Samples/catkin_ws/src/beginner_tutorials/include")
+  set(_include_dirs "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
     set(_report "Check the website '' for information and consider reporting the problem.")
   else()
-    set(_report "Report the problem to the maintainer 'yildiz <yildiz@todo.todo>' and request to fix the problem.")
+    set(_report "Report the problem to the maintainer 'yildiz <yildiz@stanford.edu>' and request to fix the problem.")
   endif()
   foreach(idir ${_include_dirs})
     if(IS_ABSOLUTE ${idir} AND IS_DIRECTORY ${idir})
@@ -116,7 +116,7 @@ if(NOT "/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel/include;/home/yildiz/G
   endforeach()
 endif()
 
-set(libraries "beginner_tutorials")
+set(libraries "")
 foreach(library ${libraries})
   # keep build configuration keywords, target names and absolute libraries as-is
   if("${library}" MATCHES "^(debug|optimized|general)$")

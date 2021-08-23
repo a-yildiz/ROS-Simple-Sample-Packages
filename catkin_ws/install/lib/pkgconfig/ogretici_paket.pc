@@ -1,8 +1,0 @@
-prefix=/home/yildiz/GitRepos/ROS_Samples/catkin_ws/install
-
-Name: ogretici_paket
-Description: Description of ogretici_paket
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib -logretici_paket
-Requires: roscpp rospy std_msgs message_runtime

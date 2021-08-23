@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+	<!-- TurtleSim Node -->
+	<node pkg="turtlesim" type="turtlesim_node" name="my_turtle"/>
+	
+	<!-- Square Motion Node (built-in) -->
+	<node pkg="turtlesim" type="draw_square" name="square_motion"/>
+</launch>
+

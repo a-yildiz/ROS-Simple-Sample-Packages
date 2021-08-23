@@ -1,0 +1,8 @@
+prefix=/home/yildiz/GitRepos/ROS_Samples/catkin_ws/install
+
+Name: labyrinth
+Description: Description of labyrinth
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

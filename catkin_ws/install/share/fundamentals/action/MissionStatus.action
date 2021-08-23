@@ -1,0 +1,20 @@
+int32 value
+---
+string finish
+---
+string ratio
+
+# The ordering above is:
+# client request
+# server response
+# action feedback
+
+# When you `catkin_make` and `catkin_make install` after creating this file,
+# you will have created 7 different .msg and .h files named:
+# MissionStatus
+# MissionStatusGoal
+# MissionStatusResult
+# MissionStatusFeedback
+# MissionStatusAction
+# MissionStatusActionResult
+# MissionStatusActionFeedback

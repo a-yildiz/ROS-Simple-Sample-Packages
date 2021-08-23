@@ -1,0 +1,7 @@
+float64 target_distance
+---
+float64 time_past
+
+# The ordering above is:
+# client request
+# server response
