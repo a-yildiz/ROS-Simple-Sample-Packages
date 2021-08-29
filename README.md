@@ -8,6 +8,7 @@ This repo has some ROS components to get an initial ROS package up-and-running.
 - [`fundamentals`](/catkin_ws/src/fundamentals): From [Udemy course](https://www.udemy.com/course/temelden-gelismise-python-ile-uygulamali-ros-egitimi/), Section 5.
 - [`labyrinth`](/catkin_ws/src/labyrinth): From [Udemy course](https://www.udemy.com/course/temelden-gelismise-python-ile-uygulamali-ros-egitimi/), Section 8.
 - [`simple_applications`](/catkin_ws/src/simple_applications): From [Udemy course](https://www.udemy.com/course/temelden-gelismise-python-ile-uygulamali-ros-egitimi/), Section 9.
+- [`gui_control`](/catkin_ws/src/gui_control): From [Udemy course](https://www.udemy.com/course/temelden-gelismise-python-ile-uygulamali-ros-egitimi/), Section 10.
 
 ## Notes
 - Remember to `source devel/setup.sh` for every new terminal. If frequently used, consider adding this command to to `~/.bashrc`.
