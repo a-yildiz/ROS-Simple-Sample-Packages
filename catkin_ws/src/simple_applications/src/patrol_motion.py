@@ -6,9 +6,9 @@ from geometry_msgs.msg import Twist
 Uses the parameters in `../params/patrol_parameters.yaml`.
 The turtlebot will patrol back and forth in a straight line.
 Run this script/node after `roslaunch simple_applications turtlebot3_empty_world_patrol.launch`
-which also loads the required params.
+which also automatically loads the required params.
 
-Note that you could have also manually loaded params using `rosparam load ../params/patrol_params.yaml`.
+Note that you could have also manually loaded params using `rosparam load ../params/p.yaml`.
 """
 
 def iseven(num):
