@@ -1,0 +1,8 @@
+prefix=/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel
+
+Name: opencv_img_processing
+Description: Description of opencv_img_processing
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

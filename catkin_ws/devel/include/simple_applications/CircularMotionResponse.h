@@ -131,6 +131,12 @@ struct Definition< ::simple_applications::CircularMotionResponse_<ContainerAlloc
   static const char* value()
   {
     return "\n"
+"# The ordering above is:\n"
+"# client request\n"
+"# ---\n"
+"# server response\n"
+"\n"
+"# Even though we are not returning a response, we still include the `---` separator.\n"
 ;
   }
 

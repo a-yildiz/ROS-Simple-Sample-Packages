@@ -127,6 +127,12 @@ class CircularMotionResponse {
     // Returns full string definition for message
     return `
     
+    # The ordering above is:
+    # client request
+    # ---
+    # server response
+    
+    # Even though we are not returning a response, we still include the `---` separator.
     
     `;
   }

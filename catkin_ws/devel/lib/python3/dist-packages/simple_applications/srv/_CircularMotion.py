@@ -125,6 +125,12 @@ class CircularMotionResponse(genpy.Message):
   _type = "simple_applications/CircularMotionResponse"
   _has_header = False  # flag to mark the presence of a Header object
   _full_text = """
+# The ordering above is:
+# client request
+# ---
+# server response
+
+# Even though we are not returning a response, we still include the `---` separator.
 """
   __slots__ = []
   _slot_types = []

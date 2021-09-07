@@ -113,10 +113,10 @@
   "34d1b51a3aa2a07a0194bc3c5de27677")
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql '<CircularMotion-response>)))
   "Returns full string definition for message of type '<CircularMotion-response>"
-  (cl:format cl:nil "~%~%~%"))
+  (cl:format cl:nil "~%# The ordering above is:~%# client request~%# ---~%# server response~%~%# Even though we are not returning a response, we still include the `---` separator.~%~%~%"))
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql 'CircularMotion-response)))
   "Returns full string definition for message of type 'CircularMotion-response"
-  (cl:format cl:nil "~%~%~%"))
+  (cl:format cl:nil "~%# The ordering above is:~%# client request~%# ---~%# server response~%~%# Even though we are not returning a response, we still include the `---` separator.~%~%~%"))
 (cl:defmethod roslisp-msg-protocol:serialization-length ((msg <CircularMotion-response>))
   (cl:+ 0
 ))

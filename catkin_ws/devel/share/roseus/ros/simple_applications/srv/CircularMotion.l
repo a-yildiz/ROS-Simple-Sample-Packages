@@ -100,6 +100,12 @@
       "float64 radius
 ---
 
+# The ordering above is:
+# client request
+# ---
+# server response
+
+# Even though we are not returning a response, we still include the `---` separator.
 ")
 
 (setf (get simple_applications::CircularMotionResponse :md5sum-) "34d1b51a3aa2a07a0194bc3c5de27677")
@@ -108,6 +114,12 @@
       "float64 radius
 ---
 
+# The ordering above is:
+# client request
+# ---
+# server response
+
+# Even though we are not returning a response, we still include the `---` separator.
 ")
 
 
