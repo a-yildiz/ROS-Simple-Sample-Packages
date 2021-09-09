@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "opencv_img_processing")
 set(opencv_img_processing_VERSION "0.0.0")
-set(opencv_img_processing_MAINTAINER "yildiz <yildiz@todo.todo>")
+set(opencv_img_processing_MAINTAINER "yildiz <yildiz@stanford.edu>")
 set(opencv_img_processing_PACKAGE_FORMAT "2")
 set(opencv_img_processing_BUILD_DEPENDS )
 set(opencv_img_processing_BUILD_EXPORT_DEPENDS )
