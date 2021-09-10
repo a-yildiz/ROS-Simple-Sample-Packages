@@ -58,6 +58,7 @@ all: gui_control/all
 all: labyrinth/all
 all: opencv_img_processing/all
 all: simple_applications/all
+all: slam_and_navigation/all
 all: turtlebot3/turtlebot3/all
 all: turtlebot3_msgs/all
 all: turtlebot3/turtlebot3_navigation/all
@@ -80,6 +81,7 @@ preinstall: gui_control/preinstall
 preinstall: labyrinth/preinstall
 preinstall: opencv_img_processing/preinstall
 preinstall: simple_applications/preinstall
+preinstall: slam_and_navigation/preinstall
 preinstall: turtlebot3/turtlebot3/preinstall
 preinstall: turtlebot3_msgs/preinstall
 preinstall: turtlebot3/turtlebot3_navigation/preinstall
@@ -107,6 +109,7 @@ clean: gui_control/clean
 clean: labyrinth/clean
 clean: opencv_img_processing/clean
 clean: simple_applications/clean
+clean: slam_and_navigation/clean
 clean: turtlebot3/turtlebot3/clean
 clean: turtlebot3_msgs/clean
 clean: turtlebot3/turtlebot3_navigation/clean
@@ -351,6 +354,24 @@ simple_applications/clean: simple_applications/CMakeFiles/simple_applications_ge
 simple_applications/clean: simple_applications/CMakeFiles/simple_applications_genlisp.dir/clean
 
 .PHONY : simple_applications/clean
+
+#=============================================================================
+# Directory level rules for directory slam_and_navigation
+
+# Recursive "all" directory target.
+slam_and_navigation/all:
+
+.PHONY : slam_and_navigation/all
+
+# Recursive "preinstall" directory target.
+slam_and_navigation/preinstall:
+
+.PHONY : slam_and_navigation/preinstall
+
+# Recursive "clean" directory target.
+slam_and_navigation/clean:
+
+.PHONY : slam_and_navigation/clean
 
 #=============================================================================
 # Directory level rules for directory turtlebot3/turtlebot3

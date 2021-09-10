@@ -176,13 +176,13 @@ class Ui_MainWindow(object):
         self.updateLineEdits()
 
     def robotUp(self):
-        self.twist_msg.linear.x = 1.0
+        self.twist_msg.linear.x = 0.3
         self.twist_msg.angular.z = 0.0
         self.pub.publish(self.twist_msg)
         self.updateLineEdits()
 
     def robotDown(self):
-        self.twist_msg.linear.x = -1.0
+        self.twist_msg.linear.x = -0.3
         self.twist_msg.angular.z = 0.0
         self.pub.publish(self.twist_msg)
         self.updateLineEdits()

@@ -77,6 +77,13 @@
 /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/simple_applications/CMakeFiles/simple_applications_geneus.dir
 /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/simple_applications/CMakeFiles/simple_applications_generate_messages_lisp.dir
 /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/simple_applications/CMakeFiles/simple_applications_genlisp.dir
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/slam_and_navigation/CMakeFiles/install/strip.dir
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/slam_and_navigation/CMakeFiles/install/local.dir
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/slam_and_navigation/CMakeFiles/install.dir
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/slam_and_navigation/CMakeFiles/list_install_components.dir
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/slam_and_navigation/CMakeFiles/rebuild_cache.dir
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/slam_and_navigation/CMakeFiles/edit_cache.dir
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/slam_and_navigation/CMakeFiles/test.dir
 /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/turtlebot3/turtlebot3/CMakeFiles/install/strip.dir
 /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/turtlebot3/turtlebot3/CMakeFiles/install/local.dir
 /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/turtlebot3/turtlebot3/CMakeFiles/install.dir

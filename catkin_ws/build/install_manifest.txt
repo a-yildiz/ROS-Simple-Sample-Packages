@@ -57,6 +57,10 @@
 /home/yildiz/GitRepos/ROS_Samples/catkin_ws/install/share/simple_applications/cmake/simple_applicationsConfig.cmake
 /home/yildiz/GitRepos/ROS_Samples/catkin_ws/install/share/simple_applications/cmake/simple_applicationsConfig-version.cmake
 /home/yildiz/GitRepos/ROS_Samples/catkin_ws/install/share/simple_applications/package.xml
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/install/lib/pkgconfig/slam_and_navigation.pc
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/install/share/slam_and_navigation/cmake/slam_and_navigationConfig.cmake
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/install/share/slam_and_navigation/cmake/slam_and_navigationConfig-version.cmake
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/install/share/slam_and_navigation/package.xml
 /home/yildiz/GitRepos/ROS_Samples/catkin_ws/install/share/turtlebot3/package.xml
 /home/yildiz/GitRepos/ROS_Samples/catkin_ws/install/share/turtlebot3_msgs/msg/SensorState.msg
 /home/yildiz/GitRepos/ROS_Samples/catkin_ws/install/share/turtlebot3_msgs/msg/VersionInfo.msg

@@ -1,0 +1,8 @@
+prefix=/home/yildiz/GitRepos/ROS_Samples/catkin_ws/install
+
+Name: slam_and_navigation
+Description: Description of slam_and_navigation
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
