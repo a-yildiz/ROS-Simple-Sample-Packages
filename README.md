@@ -18,7 +18,7 @@ This repo has some ROS components to get an initial ROS package up-and-running.
 - You will need to one-time `chmod +x` each Python script after creating it, making it executable. Once done, you should see the filename show as green instead of white when you `ls`.
 - At the very top of each Python script, you should have the preamble `#!/usr/bin/env python3` that tells the executor where `python3` is located. 
 - If you get errors during `catkin_make`, especially after moving directories, delete the compiled `build`, `devel` and `install` folders in `catkin_ws` and re-create them using `catkin_make` and `catkin_make install`.
-- The packages related to `turtlebot3` inside `catkin_ws/src` were cloned directly from their Git repos using the following commands:
+- The packages related to `turtlebot3` inside `catkin_ws/src` were cloned directly from their Git repos using the following commands.
 ```
 cd catkin_ws/src
 git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
