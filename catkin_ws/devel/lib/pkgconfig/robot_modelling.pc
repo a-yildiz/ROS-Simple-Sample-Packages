@@ -1,0 +1,8 @@
+prefix=/home/yildiz/GitRepos/ROS_Samples/catkin_ws/devel
+
+Name: robot_modelling
+Description: Description of robot_modelling
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

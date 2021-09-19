@@ -19,6 +19,10 @@
 /home/yildiz/GitRepos/ROS_Samples/catkin_ws/install/share/opencv_img_processing/cmake/opencv_img_processingConfig.cmake
 /home/yildiz/GitRepos/ROS_Samples/catkin_ws/install/share/opencv_img_processing/cmake/opencv_img_processingConfig-version.cmake
 /home/yildiz/GitRepos/ROS_Samples/catkin_ws/install/share/opencv_img_processing/package.xml
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/install/lib/pkgconfig/robot_modelling.pc
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/install/share/robot_modelling/cmake/robot_modellingConfig.cmake
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/install/share/robot_modelling/cmake/robot_modellingConfig-version.cmake
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/install/share/robot_modelling/package.xml
 /home/yildiz/GitRepos/ROS_Samples/catkin_ws/install/share/simple_applications/msg/Distance.msg
 /home/yildiz/GitRepos/ROS_Samples/catkin_ws/install/share/simple_applications/srv/CircularMotion.srv
 /home/yildiz/GitRepos/ROS_Samples/catkin_ws/install/share/simple_applications/cmake/simple_applications-msg-paths.cmake

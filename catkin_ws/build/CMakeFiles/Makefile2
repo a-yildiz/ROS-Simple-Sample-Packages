@@ -57,6 +57,7 @@ all: gtest/all
 all: gui_control/all
 all: labyrinth/all
 all: opencv_img_processing/all
+all: robot_modelling/all
 all: simple_applications/all
 all: slam_and_navigation/all
 all: turtlebot3/turtlebot3/all
@@ -80,6 +81,7 @@ preinstall: gtest/preinstall
 preinstall: gui_control/preinstall
 preinstall: labyrinth/preinstall
 preinstall: opencv_img_processing/preinstall
+preinstall: robot_modelling/preinstall
 preinstall: simple_applications/preinstall
 preinstall: slam_and_navigation/preinstall
 preinstall: turtlebot3/turtlebot3/preinstall
@@ -108,6 +110,7 @@ clean: gtest/clean
 clean: gui_control/clean
 clean: labyrinth/clean
 clean: opencv_img_processing/clean
+clean: robot_modelling/clean
 clean: simple_applications/clean
 clean: slam_and_navigation/clean
 clean: turtlebot3/turtlebot3/clean
@@ -324,6 +327,24 @@ opencv_img_processing/preinstall:
 opencv_img_processing/clean:
 
 .PHONY : opencv_img_processing/clean
+
+#=============================================================================
+# Directory level rules for directory robot_modelling
+
+# Recursive "all" directory target.
+robot_modelling/all:
+
+.PHONY : robot_modelling/all
+
+# Recursive "preinstall" directory target.
+robot_modelling/preinstall:
+
+.PHONY : robot_modelling/preinstall
+
+# Recursive "clean" directory target.
+robot_modelling/clean:
+
+.PHONY : robot_modelling/clean
 
 #=============================================================================
 # Directory level rules for directory simple_applications

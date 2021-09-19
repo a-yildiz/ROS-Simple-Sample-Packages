@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:macro name="instructional_robot_wheels" params="xyz_position rpy_position direction">
+  <link name="wheel_${direction}_link">
+    <collision>
+       <origin xyz="0 0 0" rpy="0 1.570796 1.570796"/>
+       <geometry>
+         <cylinder radius="0.10" length="0.05"/>
+       </geometry>
+    </collision>
+    <visual>
+       <origin xyz="0 0 0" rpy="0 1.570796 1.570796"/>
+       <geometry>
+         <cylinder radius="0.10" length="0.05"/>
+       </geometry>
+    </visual>
+    <xacro:cylinder_inertial radius="0.1" length="0.05" mass="0.5"/>
+  </link>
+  
+  <joint name="wheel_${direction}_base" type="continuous">
+    <origin xyz="${xyz_position}" rpy="${rpy_position}"/>
+    <parent link="base_footprint"/>
+    <child link="wheel_${direction}_link"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+  
+  <gazebo reference="wheel_${direction}_link">
+    <material value="Gazebo/Black"/>
+  </gazebo>  
+
+  </xacro:macro>
+
+  <xacro:macro name="instructional_robot_castor_wheels" params="xyz_position rpy_position direction">
+  <link name="caster_wheel_${direction}_link">
+    <collision>
+       <origin xyz="0 0 0" rpy="0 0 0"/>
+       <geometry>
+         <sphere radius="0.05"/>
+       </geometry>
+    </collision>
+    <visual>
+       <origin xyz="0 0 0" rpy="0 0 0"/>
+       <geometry>
+         <sphere radius="0.05"/>
+       </geometry>
+    </visual>
+    <xacro:sphere_inertial radius="0.05" mass="0.05"/>
+  </link>
+  
+  <joint name="caster_wheel_${direction}_base" type="continuous">
+    <origin xyz="${xyz_position}" rpy="${rpy_position}"/>
+    <parent link="base_footprint"/>
+    <child link="caster_wheel_${direction}_link"/>
+    <axis xyz="1 1 1"/>
+  </joint>
+  
+  <gazebo reference="caster_wheel_${direction}_link">
+    <material value="Gazebo/White"/>
+  </gazebo>  
+
+  </xacro:macro>
+
+</robot>

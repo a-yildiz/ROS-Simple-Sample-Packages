@@ -11,6 +11,7 @@ This repo has some ROS components to get an initial ROS package up-and-running.
 - [`gui_control`](/catkin_ws/src/gui_control): From [Udemy course](https://www.udemy.com/course/temelden-gelismise-python-ile-uygulamali-ros-egitimi/), Section 10.
 - [`opencv_img_processing`](/catkin_ws/src/opencv_img_processing): From [Udemy course](https://www.udemy.com/course/temelden-gelismise-python-ile-uygulamali-ros-egitimi/), Section 11.
 - [`slam_and_navigation`](/catkin_ws/src/slam_and_navigation): From [Udemy course](https://www.udemy.com/course/temelden-gelismise-python-ile-uygulamali-ros-egitimi/), Section 12.
+- [`robot_modelling`](/catkin_ws/src/robot_modelling): From [Udemy course](https://www.udemy.com/course/temelden-gelismise-python-ile-uygulamali-ros-egitimi/), Section 13.
 
 ## Notes
 - Remember to `source catkin_ws/devel/setup.sh` for every new terminal. If frequently used, consider adding this command to `~/.bashrc`.
@@ -30,6 +31,10 @@ git clone https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git -b noetic-de
 ```
 sudo apt-get install ros-noetic-gmapping
 sudo apt-get install ros-noetic-navigation
+```
+- To save the tree of links and joints to a PDF file after robot modelling, you need to install the following package.
+```
+sudo apt-get install ros-noetic-tf2-tools
 ```
 
 ## Cheatsheet

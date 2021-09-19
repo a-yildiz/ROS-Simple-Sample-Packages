@@ -57,6 +57,13 @@
 /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/opencv_img_processing/CMakeFiles/rebuild_cache.dir
 /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/opencv_img_processing/CMakeFiles/edit_cache.dir
 /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/opencv_img_processing/CMakeFiles/test.dir
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/robot_modelling/CMakeFiles/install/strip.dir
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/robot_modelling/CMakeFiles/install/local.dir
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/robot_modelling/CMakeFiles/install.dir
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/robot_modelling/CMakeFiles/list_install_components.dir
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/robot_modelling/CMakeFiles/rebuild_cache.dir
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/robot_modelling/CMakeFiles/edit_cache.dir
+/home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/robot_modelling/CMakeFiles/test.dir
 /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/simple_applications/CMakeFiles/list_install_components.dir
 /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/simple_applications/CMakeFiles/rebuild_cache.dir
 /home/yildiz/GitRepos/ROS_Samples/catkin_ws/build/simple_applications/CMakeFiles/edit_cache.dir

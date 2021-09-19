@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<robot name="instructional_robot" xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:include filename="$(find robot_modelling)/urdf/instructional_robot_chassis.xacro"/>
+  <xacro:include filename="$(find robot_modelling)/urdf/instructional_robot_inertia.xacro"/>
+  <xacro:include filename="$(find robot_modelling)/urdf/instructional_robot_wheels.xacro"/>
+  <xacro:include filename="$(find robot_modelling)/urdf/instructional_robot_differential.xacro"/>
+  <xacro:include filename="$(find robot_modelling)/urdf/instructional_robot_laser.xacro"/>
+  <xacro:include filename="$(find robot_modelling)/urdf/instructional_robot_camera.xacro"/>
+  
+  <xacro:instructional_robot_chassis />
+  <xacro:instructional_robot_wheels xyz_position="0.0 -0.175 -0.1" rpy_position="0 0 0" direction="left"/>
+  <xacro:instructional_robot_wheels xyz_position="0.0 0.175 -0.1" rpy_position="0 0 0" direction="right"/>
+  <xacro:instructional_robot_castor_wheels xyz_position="0.2 0.0 -0.15" rpy_position="0 0 0" direction="front"/>
+  <xacro:instructional_robot_castor_wheels xyz_position="-0.2 0.0 -0.15" rpy_position="0 0 0" direction="back"/>
+  <xacro:instructional_robot_differential />
+  <xacro:instructional_robot_laser />
+  <xacro:instructional_robot_camera />
+  
+</robot>
