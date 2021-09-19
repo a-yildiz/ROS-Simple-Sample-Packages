@@ -4,7 +4,8 @@ from geometry_msgs.msg import Twist
 from nav_msgs.msg import Odometry
 
 """
-Run this script/node after `roslaunch simple_applications turtlebot3_empty_world.launch`.
+Run this script/node after `roslaunch labyrinth turtlebot3_and_labyrinth.launch`
+or `roslaunch simple_applications turtlebot3_empty_world.launch`.
 
 The position of the turtlebot can now be controlled using the GUI that we have designed.
 """

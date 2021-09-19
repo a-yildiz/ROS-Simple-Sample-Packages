@@ -6,7 +6,7 @@ Changes:
 1. `turtlebot3_navigation.launch`: The `map_file` argument is changed, in Line 4, to load our own custom map.\
 The directory to find `acml.launch` is changed on Line 17. 
 
-2. `amcl.launch`: The `initial_pose_x` and `_y` arguments are changed, in Lines 4 and 5, to match the initial poses defined in `/catkin_ws/src/labyrinth/launch/turtlebot3_and_labyrinth.launch`. Otherwise, the `gmapping` of the labyrinth is loaded with an offset during navigation.
+2. `amcl.launch`: The `initial_pose_x` and `initial_pose_y` arguments are changed, in Lines 4 and 5, to match the initial poses defined in `/catkin_ws/src/labyrinth/launch/turtlebot3_and_labyrinth.launch`. Otherwise, the `gmapping` of the labyrinth is loaded with an offset during navigation.
 
 
 ### Autonomous Navigation for Turtlebot3

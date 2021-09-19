@@ -30,7 +30,7 @@
 
   </xacro:macro>
 
-  <xacro:macro name="instructional_robot_castor_wheels" params="xyz_position rpy_position direction">
+  <xacro:macro name="instructional_robot_caster_wheels" params="xyz_position rpy_position direction">
   <link name="caster_wheel_${direction}_link">
     <collision>
        <origin xyz="0 0 0" rpy="0 0 0"/>

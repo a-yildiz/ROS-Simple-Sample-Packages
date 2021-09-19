@@ -10,8 +10,8 @@
   <xacro:instructional_robot_chassis />
   <xacro:instructional_robot_wheels xyz_position="0.0 -0.175 -0.1" rpy_position="0 0 0" direction="left"/>
   <xacro:instructional_robot_wheels xyz_position="0.0 0.175 -0.1" rpy_position="0 0 0" direction="right"/>
-  <xacro:instructional_robot_castor_wheels xyz_position="0.2 0.0 -0.15" rpy_position="0 0 0" direction="front"/>
-  <xacro:instructional_robot_castor_wheels xyz_position="-0.2 0.0 -0.15" rpy_position="0 0 0" direction="back"/>
+  <xacro:instructional_robot_caster_wheels xyz_position="0.2 0.0 -0.15" rpy_position="0 0 0" direction="front"/>
+  <xacro:instructional_robot_caster_wheels xyz_position="-0.2 0.0 -0.15" rpy_position="0 0 0" direction="back"/>
   <xacro:instructional_robot_differential />
   <xacro:instructional_robot_laser />
   <xacro:instructional_robot_camera />
